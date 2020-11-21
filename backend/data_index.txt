@@ -1,0 +1,296 @@
+: data.txt data1.txt data2.txt 
+111t: data.txt 
+abys: data1.txt data2.txt 
+accompan: data.txt 
+accompanie: data.txt data1.txt data2.txt 
+acros: data1.txt data2.txt 
+advic: data1.txt data2.txt 
+ag: data.txt 
+allow: data1.txt data2.txt 
+alon: data1.txt data2.txt 
+amo: data1.txt data2.txt 
+ancien: data.txt data1.txt data2.txt 
+andui: data1.txt data2.txt 
+anothe: data.txt 
+aragor: data1.txt data2.txt 
+arriv: data.txt 
+athela: data.txt 
+attac: data1.txt data2.txt 
+attacke: data.txt 
+attemp: data1.txt data2.txt 
+avoi: data.txt 
+awa: data.txt 
+awakenin: data.txt 
+awar: data.txt 
+baggin: data.txt 
+bali: data1.txt data2.txt 
+balro: data1.txt data2.txt 
+barro: data.txt 
+barrow-wigh: data.txt 
+barrow-wight': data.txt 
+becom: data1.txt data2.txt 
+betraie: data1.txt data2.txt 
+bilb: data.txt data1.txt data2.txt 
+birthda: data.txt 
+blac: data.txt data1.txt data2.txt 
+blad: data.txt 
+boa: data1.txt data2.txt 
+boat: data1.txt data2.txt 
+bombadi: data.txt 
+boromi: data1.txt data2.txt 
+brandybuc: data.txt 
+bre: data.txt 
+bruine: data.txt 
+bucklebur: data.txt 
+ca: data.txt data1.txt data2.txt 
+cal: data.txt 
+captur: data.txt 
+capture: data1.txt data2.txt 
+car: data1.txt data2.txt 
+caugh: data.txt 
+celebor: data1.txt data2.txt 
+celebrate: data.txt 
+chie: data1.txt data2.txt 
+choose: data1.txt data2.txt 
+cloak: data1.txt data2.txt 
+clos: data.txt 
+colon: data1.txt data2.txt 
+companion: data1.txt data2.txt 
+confirme: data.txt 
+consist: data1.txt data2.txt 
+control: data.txt 
+counci: data1.txt data2.txt 
+counsel: data.txt 
+counselle: data1.txt data2.txt 
+cousi: data.txt 
+crickhollo: data.txt 
+cros: data1.txt data2.txt 
+cu: data.txt data1.txt data2.txt 
+curse: data.txt 
+cuttin: data.txt 
+da: data.txt 
+dar: data.txt 
+deathl: data.txt 
+decid: data.txt 
+decide: data1.txt data2.txt 
+demo: data1.txt data2.txt 
+denetho: data1.txt data2.txt 
+destro: data1.txt data2.txt 
+destroie: data1.txt data2.txt 
+disappear: data1.txt data2.txt 
+discusse: data1.txt data2.txt 
+don: data1.txt data2.txt 
+doo: data1.txt data2.txt 
+down: data.txt 
+dwar: data1.txt data2.txt 
+dwarve: data1.txt data2.txt 
+el: data1.txt data2.txt 
+elf-lor: data1.txt data2.txt 
+elron: data.txt data1.txt data2.txt 
+elrond': data1.txt data2.txt 
+elve: data.txt data1.txt data2.txt 
+encounte: data.txt 
+equip: data.txt 
+escap: data.txt data1.txt data2.txt 
+evi: data.txt 
+explainin: data1.txt data2.txt 
+face: data1.txt data2.txt 
+fail: data.txt 
+faile: data1.txt data2.txt 
+fal: data1.txt data2.txt 
+fall: data.txt 
+far: data.txt 
+farme: data.txt 
+fellowshi: data1.txt data2.txt 
+ferr: data.txt 
+fight: data.txt 
+fin: data1.txt data2.txt 
+find: data.txt 
+fir: data1.txt data2.txt 
+floo: data.txt 
+foo: data.txt 
+for: data.txt 
+fores: data.txt data1.txt data2.txt 
+forge: data1.txt data2.txt 
+fountai: data1.txt data2.txt 
+free: data.txt 
+frien: data.txt 
+frod: data.txt data1.txt data2.txt 
+frodo': data.txt 
+full: data.txt 
+futur: data1.txt data2.txt 
+galadrie: data1.txt data2.txt 
+gamge: data.txt 
+gandal: data.txt data1.txt data2.txt 
+gardene: data.txt 
+gift: data1.txt data2.txt 
+giml: data1.txt data2.txt 
+give: data.txt data1.txt data2.txt 
+goe: data1.txt data2.txt 
+gondo: data1.txt data2.txt 
+grou: data.txt 
+guesse: data1.txt data2.txt 
+han: data1.txt data2.txt 
+he: data1.txt data2.txt 
+hei: data.txt data1.txt data2.txt 
+hel: data1.txt data2.txt 
+her: data.txt 
+hil: data.txt data1.txt data2.txt 
+histor: data1.txt data2.txt 
+hoar: data.txt 
+hobbi: data.txt data1.txt data2.txt 
+hobbit: data.txt 
+hom: data.txt 
+hous: data.txt 
+identifie: data.txt 
+il: data.txt 
+individua: data1.txt data2.txt 
+innkeepe: data.txt 
+insis: data.txt 
+intend: data1.txt data2.txt 
+intercept: data1.txt data2.txt 
+isildu: data1.txt data2.txt 
+journe: data.txt 
+kille: data1.txt data2.txt 
+kno: data.txt 
+lad: data1.txt data2.txt 
+late: data.txt 
+lead: data.txt 
+lear: data1.txt data2.txt 
+leav: data1.txt data2.txt 
+leave: data.txt 
+leavin: data.txt 
+legola: data1.txt data2.txt 
+les: data1.txt data2.txt 
+lette: data.txt 
+lon: data.txt 
+loo: data1.txt data2.txt 
+lookin: data.txt 
+lor: data.txt 
+los: data.txt 
+lothlórie: data1.txt data2.txt 
+loyalt: data1.txt data2.txt 
+ma: data.txt data1.txt data2.txt 
+maggo: data.txt 
+magica: data1.txt data2.txt 
+manage: data.txt 
+maste: data.txt 
+mee: data.txt data1.txt data2.txt 
+merr: data.txt data1.txt data2.txt 
+mine: data1.txt data2.txt 
+mirro: data1.txt data2.txt 
+mist: data1.txt data2.txt 
+month: data.txt 
+mordo: data1.txt data2.txt 
+mori: data1.txt data2.txt 
+moun: data1.txt data2.txt 
+mountain: data1.txt data2.txt 
+movin: data.txt 
+muc: data.txt 
+mus: data1.txt data2.txt 
+mysteriou: data.txt 
+name: data.txt 
+natur: data.txt 
+nazgû: data.txt 
+ne: data.txt 
+nearl: data.txt 
+neithe: data.txt 
+nex: data.txt 
+nigh: data.txt 
+nin: data1.txt data2.txt 
+no: data.txt data1.txt data2.txt 
+ol: data.txt 
+on: data.txt data1.txt data2.txt 
+oppos: data1.txt data2.txt 
+orc: data1.txt data2.txt 
+ostensibl: data.txt 
+other: data1.txt data2.txt 
+overwhel: data.txt 
+pas: data1.txt data2.txt 
+passin: data.txt 
+pat: data1.txt data2.txt 
+perhap: data1.txt data2.txt 
+perilou: data1.txt data2.txt 
+pippi: data.txt data1.txt data2.txt 
+powe: data.txt data1.txt data2.txt 
+presen: data1.txt data2.txt 
+promise: data1.txt data2.txt 
+promisin: data.txt 
+pursue: data.txt data1.txt data2.txt 
+put: data1.txt data2.txt 
+ques: data1.txt data2.txt 
+range: data.txt 
+reac: data.txt 
+realise: data.txt 
+recover: data1.txt data2.txt 
+recovere: data.txt 
+redhor: data1.txt data2.txt 
+refug: data.txt data1.txt data2.txt 
+report: data1.txt data2.txt 
+rescue: data.txt 
+retur: data.txt data1.txt data2.txt 
+revea: data.txt 
+reveale: data1.txt data2.txt 
+rider: data.txt data1.txt data2.txt 
+righ: data1.txt data2.txt 
+rin: data.txt data1.txt data2.txt 
+ring': data.txt 
+ringwraith: data.txt 
+ris: data.txt 
+rive: data1.txt data2.txt 
+rivendel: data.txt data1.txt data2.txt 
+sa: data.txt data1.txt data2.txt 
+saruma: data1.txt data2.txt 
+sauro: data.txt data1.txt data2.txt 
+sauron': data1.txt data2.txt 
+sauron-lik: data1.txt data2.txt 
+sav: data.txt 
+se: data1.txt data2.txt 
+sendin: data1.txt data2.txt 
+servant: data.txt 
+set: data.txt 
+seventee: data.txt 
+shak: data.txt 
+shir: data.txt 
+shire.[: data.txt 
+shor: data.txt 
+silentl: data1.txt data2.txt 
+so: data1.txt data2.txt 
+spel: data.txt 
+spen: data.txt 
+stewar: data1.txt data2.txt 
+stride: data.txt data1.txt data2.txt 
+summone: data.txt 
+survivin: data1.txt data2.txt 
+sword: data.txt 
+tak: data.txt data1.txt data2.txt 
+take: data.txt data1.txt data2.txt 
+tas: data1.txt data2.txt 
+tell: data.txt 
+test: data1.txt data2.txt 
+thre: data.txt 
+to: data.txt 
+too: data.txt 
+toward: data.txt 
+trap: data.txt 
+trappe: data.txt 
+trave: data1.txt data2.txt 
+travellin: data.txt 
+tre: data.txt 
+treat: data.txt 
+trie: data1.txt data2.txt 
+upo: data1.txt data2.txt 
+villag: data.txt 
+vision: data1.txt data2.txt 
+walker: data1.txt data2.txt 
+water: data.txt 
+waybrea: data1.txt data2.txt 
+weatherto: data.txt 
+wildernes: data.txt 
+willo: data.txt 
+wizar: data.txt data1.txt data2.txt 
+workin: data1.txt data2.txt 
+woun: data.txt 
+writte: data.txt 
+ye: data.txt 
+year: data.txt 
