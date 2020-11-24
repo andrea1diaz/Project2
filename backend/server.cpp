@@ -14,7 +14,7 @@ int main (int aargc, const char *argv[]) {
 
 
 	served::multiplexer mux;
-    mux.handle("/api/get-list")
+    mux.handle("/api/collection/list")
         .get([&](served::response &res, const served::request &req) {
             std::string name = req.query["name"];
             res.set_header("content-type", "application/json");

@@ -2,7 +2,14 @@
 	<div id="result">
 		<div class="hashtags">
 			<div id="hashtags-title">Hashtags</div>
-			<div id="hashtags"> </div>
+			<div id="hashtags">
+				<div
+					id="collection"
+					v-for="collection in collections"
+				>
+					{{ collection.name }}
+				<div>
+			</div>
 		</div>
 		<div class="content">
 			<div id="search-results-title">Resultados</div>
@@ -14,8 +21,19 @@
 </template>
 
 <script>
+	import { mapState, mapActions } from 'vuex'
+
 	export default {
 		name: 'Result',
+		computed: {
+			...mapState('collection', ['collections'])
+		},
+		methods: {
+			...mapActions('collection', ['getCollections']),
+			fetchCollections: async Function () {
+				await this.getCollections():w
+			}
+		}
 	}
 </script>
 
