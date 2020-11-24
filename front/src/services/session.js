@@ -1,24 +1,30 @@
 import axios from 'axios'
 
+axios.get("http://localhost:5000/api", { crossdomain: true })
+
 const session = axios.create ({
-	baseURL: process.env.VUE_APP_API_URL || 'http://localhost:5000/api',
+	baseURL:'http://localhost:5000/api',
 	headers: {
 		'Accept': 'application/json',
-		'Content-Type': 'application/json'
+		'Content-Type': 'application/json',
+		'Access-Control-Allow-Origin': '*',
+		'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
+		'Access-Control-Allow-Methods': 'DELETE, POST, GET, OPTIONS'
+	},
+	proxy: {
+		host: 'https://localhost:5000'
 	}
 })
-
 session.interceptors.response.use((response) => {
- 	// do something with the response data
- 	console.log('Response was received')
+	console.log('Response was received')
 
- 	return response
+	return response
  }, (error) => {
- 	if (error.response.status === 401) {
- 		return null
- 	}
-
- 	return Promise.reject(error)
+	if (error.response.status === 401) {
+		return null
+	}
+	
+	return Promise.reject(error)
  })
 
  export default session

@@ -5,10 +5,9 @@
 			<div id="hashtags">
 				<div
 					id="collection"
-					v-for="collection in collections"
 				>
-					{{ collection.name }}
-				<div>
+					{{ collections }}
+				</div>
 			</div>
 		</div>
 		<div class="content">
@@ -28,10 +27,13 @@
 		computed: {
 			...mapState('collection', ['collections'])
 		},
+		created: function () {
+			this.fetchCollections()
+		},
 		methods: {
 			...mapActions('collection', ['getCollections']),
-			fetchCollections: async Function () {
-				await this.getCollections():w
+			fetchCollections: async function () {
+				await this.getCollections()
 			}
 		}
 	}

@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import store from '@/store/store'
-
 import Home from '@/components/Home'
 
 Vue.use(Router)
@@ -20,14 +18,6 @@ const router = new Router ({
 			}
 		}
 	],
-	parseQuery (query) {
-		return qs.parse(query);
-	},
-	stringifyQuery (query) {
-		let result = qs.stringify(query, {encode: false});
-
-		return result ? ('?' + result) : '';
-	}
 })
 
 export default router
