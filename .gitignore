@@ -2,3 +2,5 @@ frontend/node_modules/
 front/node_modules/
 backend/build/
 
+*.swp
+

@@ -1,8 +1,8 @@
 #include <iostream>
 #include <served/served.hpp>
+#include "json.hpp"
 
-#include "data_processor.cpp"
-#include "porter_stemming.cpp"
+#include "data_processor.h"
 
 
 int main (int aargc, const char *argv[]) {
@@ -18,13 +18,11 @@ int main (int aargc, const char *argv[]) {
         .get([&](served::response &res, const served::request &req) {
             std::string name = req.query["name"];
             res.set_header("content-type", "application/json");
-            res << "{ \"content\": \"Hello, " << ((name.length() > 0) ? name : "world") << "!\" }\n";
+			res << process_data.get_collections().str();
         });
-
-    std::cout << "Try this example with:" << std::endl;
-    std::cout << "  curl \"http://localhost:8123/api/v1/greeting?name=world\"" << std::endl;
-
-    served::net::server server("0.0.0.0", "8081", mux);
+	
+    served::net::server server("0.0.0.0", "5000", mux);
+	std::cout << "Running on port 5000\n";
     server.run(10);
 
     return (1);

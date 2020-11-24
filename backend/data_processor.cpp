@@ -10,6 +10,9 @@
 #include <utility>
 #include <cmath>
 #include <numeric>
+#include <sstream>
+
+#include <boost/property_tree/json_parser.hpp>
 
 data_processor::data_processor(char *stopwords_file) {
 	number_of_collections = 0;
@@ -32,21 +35,21 @@ data_processor::data_processor(char *stopwords_file) {
 void data_processor::add (std::string to_clean) {
 	number_of_collections ++;
 
-	Collection col;
+	Collection *col = new Collection;
 
-	col.name = to_clean;
+	col->name = to_clean;
 	collection.insert ({number_of_collections, col});
 
 	bool worked = stoplist(to_clean, number_of_collections);
 }
 
 bool data_processor::stoplist(std::string to_clean, int collection_id) {
-	std::fstream file (to_clean);
+	std::fstream file;
+	file.open(to_clean);
 	std::string word;
 
 	int vocabulary_count = 0;
 	int total_words = 0;
-
 
 	while (file >> word) {
 		std::transform(word.begin(), word.end(), word.begin(),
@@ -61,23 +64,23 @@ bool data_processor::stoplist(std::string to_clean, int collection_id) {
 		if (stopwords.find(word) == stopwords.end()) {
 			word = stemming(word);
 
-			if (cleaned_data.find(word) != cleaned_data.end()) {
+			if (cleaned_data.find(word) != cleaned_data.end()) { 
 				auto w = cleaned_data.find(word)->second;
 
-				if (w.collection_id.find(collection_id) == w.collection_id.end()) {
-					w.collection_id.insert({collection_id, w.collection_id.size() - 1});
-					w.counts_in_collection.push_back(1);
+				if (w->collection_id.find(collection_id) == w->collection_id.end()) {
+					w->collection_id.insert({collection_id, w->collection_id.size() - 1});
+					w->counts_in_collection.push_back(1);
 				}
 
-				int i = w.counts_in_collection.size() - 1;
-				cleaned_data.find(word)->second.counts_in_collection[i] += 1;
+				int i = w->counts_in_collection.size() - 1;
+				cleaned_data.find(word)->second->counts_in_collection[i] += 1;
 			}
 
 			else {
-				Word to_add;
+				Word *to_add = new Word;;
 				
-				to_add.collection_id.insert ({collection_id, 0});
-				to_add.counts_in_collection.push_back (1);
+				to_add->collection_id.insert ({collection_id, 0});
+				to_add->counts_in_collection.push_back (1);
 
 				cleaned_data.insert({word, to_add});
 				vocabulary_count ++;
@@ -86,11 +89,11 @@ bool data_processor::stoplist(std::string to_clean, int collection_id) {
 
 		total_words ++;
 	}
-
+	
 	auto it = collection.find (collection_id)->second;
 
-	it.total_words = total_words;
-	it.vocabulary_count = vocabulary_count;
+	it->total_words = total_words;
+	it->vocabulary_count = vocabulary_count;
 
 	file.close();
 
@@ -111,18 +114,18 @@ std::string data_processor::stemming (std::string word) {
 
 void data_processor::calc_tf_idf () {
 	for (auto i : cleaned_data) {
-		Word w = i.second;
+		Word *w = i.second;
 
-		w.calc_tf_idf (number_of_collections);
+		w->calc_tf_idf (number_of_collections);
 	}
 }
 
 
 void data_processor::calc_doc_score () {
 	for (auto w : cleaned_data) {
-		for (int i = 0; i < w.second.tf_idf.size(); ++i) {
-			auto c = collection.find(w.second.collection_id[i])->second;
-			c.score += w.second.tf_idf[i];
+		for (int i = 0; i < w.second->tf_idf.size(); ++i) {
+			auto c = collection.find(w.second->collection_id[i])->second;
+			c->score += w.second->tf_idf[i];
 		}
 	}	
 }
@@ -138,6 +141,28 @@ bool sortbysec(const std::pair<std::string, int> &a,
     return (a.second > b.second); 
 }
 
+std::stringstream data_processor::get_collections () {
+	boost::property_tree::ptree root;
+	std::stringstream ss;
+
+	for (auto i : collection) {
+		boost::property_tree::ptree aux;
+		std::string id = std::to_string(i.first);
+		auto c = i.second;
+
+		aux.put("name", c->name);
+		aux.put("total_words", c->total_words);
+		aux.put("vocabulary_count", c->vocabulary_count);
+		
+		root.push_back(std::make_pair(id, aux));
+	}
+	
+	
+	// Export JSON response
+	boost::property_tree::json_parser::write_json(ss, root, true /* human */);
+
+	return ss;
+}
 
 /*
 std::vector<std::string> data_processor::most_used_words () {

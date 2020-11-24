@@ -1,5 +1,7 @@
 #include "porter_stemming.h"
 
+#include <string.h>
+
 porter_stemming::porter_stemming() {
 	buffer = new char[10000000];
 	end = offset_i = offset_j = 0;

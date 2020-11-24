@@ -5,9 +5,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(server server.cpp)
+add_executable(server server.cpp data_processor.cpp porter_stemming.cpp)
 
 find_package(PkgConfig REQUIRED)
+
 pkg_check_modules(SERVED_PKG REQUIRED IMPORTED_TARGET served)
 
 target_link_libraries(server PkgConfig::SERVED_PKG)

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const session = axios.create ({
-	baseURL: process.env.VUE_APP_API_URL,
+	baseURL: process.env.VUE_APP_API_URL || 'http://localhost:5000/api',
 	headers: {
 		'Accept': 'application/json',
 		'Content-Type': 'application/json'

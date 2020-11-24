@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include "porter_stemming.h"
 
 #include <iostream>
@@ -10,7 +9,7 @@
 #include <vector>
 #include <utility>
 #include <cmath>
-
+#include <sstream>
 
 struct Word {
 	std::unordered_map<int, int> collection_id;
@@ -35,7 +34,7 @@ struct Collection {
 	double score;
 
 	Collection () {
-		score = 0;
+		total_words = vocabulary_count = score = 0;
 	}
 };
 
@@ -48,15 +47,15 @@ public:
 	bool stoplist(std::string, int);
 	void calc_tf_idf();
 	void calc_doc_score();
+	std::stringstream get_collections();
 
 	std::vector<std::string> most_used_words();
 	std::string stemming(std::string word);
 	
-
-	std::unordered_map<std::string, Word> cleaned_data;
-	std::unordered_map<int, Collection> collection;
+	std::unordered_map<std::string, Word*> cleaned_data;
+	std::unordered_map<int, Collection*> collection;
+	
 	int number_of_collections;
-
 private:
 	porter_stemming ps;
 	std::unordered_map<std::string, bool> stopwords;
