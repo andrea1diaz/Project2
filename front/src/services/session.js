@@ -12,7 +12,7 @@ const session = axios.create ({
 		'Access-Control-Allow-Methods': 'DELETE, POST, GET, OPTIONS'
 	},
 	proxy: {
-		host: 'https://localhost:5000'
+		host: 'https://localhost:5000/api'
 	}
 })
 session.interceptors.response.use((response) => {
