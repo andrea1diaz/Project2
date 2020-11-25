@@ -20,7 +20,7 @@ namespace fs = std::filesystem;
 data_processor::data_processor () {
 	add_stopwords ();
 
-	std::string path_ = "/Users/andreadiaz/Library/Mobile Documents/com~apple~CloudDocs/utec/data-bases-2/Project2/backend/docs";
+	std::string path_ = "docs/";
 	std::vector<std::string> doc_list;
 
 	for (const auto & entry : fs::directory_iterator(path_))
@@ -137,6 +137,38 @@ std::string data_processor::stemming (std::string word) {
 	strcpy(cstr, word.c_str());
 
 	return ps.stemming(cstr, 0, word.length() - 1);
+}
+
+void data_processor::write_index () {
+	std::fstream file;
+	std::string filename = "index/";
+
+	filename += "index.json";
+
+	file.open (filename, std::ios::out);
+
+	file << "{\n";
+	
+	int j = 1;
+	for (auto i : index) {
+		file << "\"" << i.first << "\": [";
+		
+		int z = 1;
+		for (auto j : i.second) {
+			file <<  j.first;
+			if (z < i.second.size()) file << ", ";
+			z++;
+		}
+		
+		if (j < index.size()) file << "],\n";
+		else file << "]\n";
+
+		j++;
+	}
+		
+	file << "}";
+
+	file.close();
 }
 
 

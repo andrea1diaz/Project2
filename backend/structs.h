@@ -16,8 +16,9 @@ struct Block {
 	Block (int id) { block_id = id; }
 
 	void write_block (int number_of_docs) {
+
 		std::fstream file;
-		std::string filename = "/Users/andreadiaz/Library/Mobile Documents/com~apple~CloudDocs/utec/data-bases-2/Project2/backend/input/";
+		std::string filename = "index/";
 
 		filename += std::to_string(block_id);
 		filename += ".json";
@@ -26,27 +27,51 @@ struct Block {
 
 		file << "{\n";
 		file << "\t\"docs\": {\n";
+		int j = 1;
 		for (auto i : docs) {
-			file << "\t\t\"" << i.second << "\" : {\n";
-			file << "\t\t\t\"name\": " << i.first << "\n\t\t\t},\n";
+			file << "\t\t\"" << i.second << "\": " << i.first;
+			
+			if (j < docs.size()) file << ",\n";
+			j++;
+
+			//file << "\t\t\t\"name\": " << i.first << "\n\t\t\t},\n";
 		}
-		file << "\t\t},\n";
+		file << "\t\t\n},\n";
 		file << "\t\"words\" : {\n";
+
+		int q = 1;
 		for (auto i : word_counts) {
 			file << "\t\t\"" << i.first << "\" : {\n";
 			double idf = log10(number_of_docs / in_docs[i.first].size());
 			file << "\t\t\t\"idf\": " << idf << ",\n";
 			file << "\t\t\t\"tf\": {\n";
+			std::multiset<std::pair<double, int>> tf;
+			std::multiset<std::pair<double, int>>::iterator it;
+			
+			int z = 1;
 			for (int j = 0; j < i.second.size(); ++j) {
-				file << "\t\t\t\t\"" << in_docs[i.first][j] << "\": " << 1 + log10(i.second[j]) << ",\n";
+				file << "\t\t\t\t\"" << in_docs[i.first][j] << "\": " << 1 + log10(i.second[j]);
+				if (z < i.second.size()) file << ",\n";
+				z++;
+				
+				std::pair<double, int> p ((double)(1 + log10(i.second[j])),	in_docs[i.first][j]);
+				tf.emplace(p);
 			}
-			file << "\t\t\t},\n";
+			file << "},\n";
 			file << "\t\t\t\"tf_idf\": {\n";
-			for (int j = 0; j < i.second.size(); ++j) {
-				file << "\t\t\t\t\"" << in_docs[i.first][j] << "\": " << (double) (1 + log10(i.second[j])) * idf << ",\n";
+
+			int x = 1;
+			for (std::multiset<std::pair<double, int>>::iterator it = tf.begin(); it != tf.end(); ++it) {
+				file << "\t\t\t\t\"" << it->second << "\": " << it->first * idf;
+				if (x < tf.size()) file << ",\n";
+				x++;
 			}
-			file << "\t\t\t}\n";
-			file << "\t\t},\n";
+			file << "\n\t\t\t}\n";
+
+			if (q < words.size()) file << "\t\t},\n";
+			else file << "\n";
+
+			q++;
 
 		}
 

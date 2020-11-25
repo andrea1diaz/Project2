@@ -24,6 +24,7 @@ public:
 	void calc_doc_score();
 	
 	std::string stemming(std::string word);
+	void write_index();
 	
 private:
 	porter_stemming ps;

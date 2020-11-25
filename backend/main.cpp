@@ -9,7 +9,8 @@
 
 int main () {
 	data_processor process_data;
-
+	
+	process_data.write_index();
 
 	return 0;
 
