@@ -4,6 +4,7 @@
 #include <vector>
 #include <unordered_map>
 #include <set>
+#include <math.h>
 
 struct Block {
 	std::unordered_map<std::string, int> words;
@@ -14,7 +15,7 @@ struct Block {
 
 	Block (int id) { block_id = id; }
 
-	void write_block () {
+	void write_block (int number_of_docs) {
 		std::fstream file;
 		std::string filename = "/Users/andreadiaz/Library/Mobile Documents/com~apple~CloudDocs/utec/data-bases-2/Project2/backend/input/";
 
@@ -26,30 +27,30 @@ struct Block {
 		file << "{\n";
 		file << "\t\"docs\": {\n";
 		for (auto i : docs) {
-			file << "\t\t\"" << i.first << "\" : {\n";
-			file << "\t\t\t\"vocab_count\": " << i.second << "\n\t\t},\n";
+			file << "\t\t\"" << i.second << "\" : {\n";
+			file << "\t\t\t\"name\": " << i.first << "\n\t\t\t},\n";
 		}
 		file << "\t\t},\n";
 		file << "\t\"words\" : {\n";
 		for (auto i : word_counts) {
 			file << "\t\t\"" << i.first << "\" : {\n";
+			double idf = log10(number_of_docs / in_docs[i.first].size());
+			file << "\t\t\t\"idf\": " << idf << ",\n";
+			file << "\t\t\t\"tf\": {\n";
 			for (int j = 0; j < i.second.size(); ++j) {
-				file << "\t\t\t\"" << j << "\": " << i.second[j] << ",\n";
+				file << "\t\t\t\t\"" << in_docs[i.first][j] << "\": " << 1 + log10(i.second[j]) << ",\n";
 			}
+			file << "\t\t\t},\n";
+			file << "\t\t\t\"tf_idf\": {\n";
+			for (int j = 0; j < i.second.size(); ++j) {
+				file << "\t\t\t\t\"" << in_docs[i.first][j] << "\": " << (double) (1 + log10(i.second[j])) * idf << ",\n";
+			}
+			file << "\t\t\t}\n";
 			file << "\t\t},\n";
+
 		}
 
-		file << "\t\t\"in_docs\": {\n";
-
-		for (auto i : in_docs) {
-			file << "\t\t\t\"" << i.first << "\": [\n";
-			for (int j = 0; j < i.second.size(); ++j) {
-				file << i.second[j] << ", ";
-			}
-			file << "\t\t\t],\n";
-		}
-		
-		file << "}";
+		file <<	"\t}\n}";
 
 		file.close();
 	}
