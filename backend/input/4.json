@@ -1,0 +1,3198 @@
+{
+	"docs": {
+		"/Users/andreadiaz/Library/Mobile Documents/com~apple~CloudDocs/utec/data-bases-2/Project2/backend/docs/cv686_13900.txt" : {
+			"vocab_count": 67
+		},
+		"/Users/andreadiaz/Library/Mobile Documents/com~apple~CloudDocs/utec/data-bases-2/Project2/backend/docs/cv962_9803.txt" : {
+			"vocab_count": 168
+		},
+		"/Users/andreadiaz/Library/Mobile Documents/com~apple~CloudDocs/utec/data-bases-2/Project2/backend/docs/cv147_21193.txt" : {
+			"vocab_count": 255
+		},
+		"/Users/andreadiaz/Library/Mobile Documents/com~apple~CloudDocs/utec/data-bases-2/Project2/backend/docs/cv253_10077.txt" : {
+			"vocab_count": 146
+		},
+		},
+	"words" : {
+		"vagu" : {
+			"0": 1,
+		},
+		"runnin" : {
+			"0": 1,
+		},
+		"churc" : {
+			"0": 1,
+		},
+		"younges" : {
+			"0": 1,
+		},
+		"loca" : {
+			"0": 1,
+		},
+		"foundateo" : {
+			"0": 1,
+		},
+		"friendshi" : {
+			"0": 1,
+		},
+		"stra" : {
+			"0": 1,
+		},
+		"disagreemen" : {
+			"0": 1,
+		},
+		"brother" : {
+			"0": 3,
+		},
+		"siste" : {
+			"0": 1,
+		},
+		"mothe" : {
+			"0": 1,
+		},
+		"consist" : {
+			"0": 1,
+		},
+		"advisabl" : {
+			"0": 1,
+		},
+		"revie" : {
+			"0": 2,
+		},
+		"viewin" : {
+			"0": 1,
+		},
+		"wors" : {
+			"0": 1,
+		},
+		"happe" : {
+			"0": 2,
+		},
+		"kne" : {
+			"0": 1,
+		},
+		"fi" : {
+			"0": 1,
+		},
+		"guid" : {
+			"0": 1,
+		},
+		"sullivan" : {
+			"0": 2,
+		},
+		"fightin" : {
+			"0": 2,
+		},
+		"beside" : {
+			"0": 1,
+		},
+		"studi" : {
+			"0": 1,
+		},
+		"nic" : {
+			"0": 1,
+		},
+		"awfull" : {
+			"0": 1,
+		},
+		"alik" : {
+			"0": 1,
+		},
+		"oka" : {
+			"0": 1,
+		},
+		"showpiece" : {
+			"0": 1,
+		},
+		"watc" : {
+			"0": 1,
+		},
+		"credit" : {
+			"0": 1,
+		},
+		"en" : {
+			"0": 1,
+		},
+		"radi" : {
+			"0": 1,
+		},
+		"assis" : {
+			"0": 1,
+		},
+		"hal" : {
+			"0": 2,
+		},
+		"singer" : {
+			"0": 1,
+		},
+		"top-4" : {
+			"0": 1,
+		},
+		"provid" : {
+			"0": 1,
+		},
+		"song" : {
+			"0": 3,
+		},
+		"feature" : {
+			"0": 1,
+		},
+		"styl" : {
+			"0": 1,
+		},
+		"occasiona" : {
+			"0": 1,
+		},
+		"paintin" : {
+			"0": 1,
+		},
+		"rendere" : {
+			"0": 1,
+		},
+		"background" : {
+			"0": 1,
+		},
+		"musica" : {
+			"0": 1,
+		},
+		"ac" : {
+			"0": 1,
+		},
+		"withou" : {
+			"0": 1,
+		},
+		"eve" : {
+			"0": 1,
+		},
+		"see" : {
+			"0": 3,
+		},
+		"gorgeou" : {
+			"0": 1,
+		},
+		"almos" : {
+			"0": 1,
+		},
+		"worke" : {
+			"0": 1,
+		},
+		"distrac" : {
+			"0": 1,
+		},
+		"howeve" : {
+			"0": 2,
+		},
+		"thin" : {
+			"0": 2,
+		},
+		"impressionis" : {
+			"0": 1,
+		},
+		"han" : {
+			"0": 1,
+		},
+		"pe" : {
+			"0": 1,
+		},
+		"rasputin'" : {
+			"0": 1,
+		},
+		"comed" : {
+			"0": 1,
+		},
+		"understan" : {
+			"0": 1,
+		},
+		"develop" : {
+			"0": 1,
+		},
+		"relationshi" : {
+			"0": 1,
+		},
+		"bante" : {
+			"0": 1,
+		},
+		"adult" : {
+			"0": 2,
+		},
+		"bore" : {
+			"0": 2,
+		},
+		"fas" : {
+			"0": 1,
+		},
+		"alon" : {
+			"0": 1,
+		},
+		"move" : {
+			"0": 1,
+		},
+		"late" : {
+			"0": 1,
+		},
+		"follow" : {
+			"0": 1,
+		},
+		"kid" : {
+			"0": 3,
+		},
+		"lo" : {
+			"0": 1,
+		},
+		"quit" : {
+			"0": 2,
+		},
+		"actuall" : {
+			"0": 1,
+		},
+		"reveng" : {
+			"0": 1,
+		},
+		"plot" : {
+			"0": 1,
+		},
+		"dea" : {
+			"0": 2,
+		},
+		"meanwhil" : {
+			"0": 1,
+		},
+		"mean" : {
+			"0": 1,
+		},
+		"commone" : {
+			"0": 1,
+		},
+		"reveale" : {
+			"0": 1,
+		},
+		"cours" : {
+			"0": 2,
+		},
+		"grea" : {
+			"0": 1,
+		},
+		"prince" : {
+			"0": 1,
+		},
+		"pos" : {
+			"0": 1,
+		},
+		"mone" : {
+			"0": 1,
+		},
+		"rewar" : {
+			"0": 1,
+		},
+		"schem" : {
+			"0": 1,
+		},
+		"pu" : {
+			"0": 1,
+		},
+		"gramma" : {
+			"0": 1,
+		},
+		"kelse" : {
+			"0": 1,
+		},
+		"materia" : {
+			"0": 1,
+		},
+		"joh" : {
+			"0": 1,
+		},
+		"dimitr" : {
+			"0": 3,
+		},
+		"run" : {
+			"0": 1,
+		},
+		"rya" : {
+			"0": 1,
+		},
+		"anyon" : {
+			"0": 1,
+		},
+		"any" : {
+			"0": 4,
+		},
+		"name" : {
+			"0": 1,
+		},
+		"woma" : {
+			"0": 1,
+		},
+		"me" : {
+			"0": 1,
+		},
+		"revolutio" : {
+			"0": 1,
+		},
+		"belove" : {
+			"0": 1,
+		},
+		"someda" : {
+			"0": 1,
+		},
+		"hopin" : {
+			"0": 1,
+		},
+		"memor" : {
+			"0": 1,
+		},
+		"los" : {
+			"0": 2,
+		},
+		"get" : {
+			"0": 1,
+		},
+		"landsbur" : {
+			"0": 1,
+		},
+		"angel" : {
+			"0": 1,
+		},
+		"lloy" : {
+			"0": 1,
+		},
+		"rasputi" : {
+			"0": 2,
+		},
+		"rui" : {
+			"0": 1,
+		},
+		"youn" : {
+			"0": 2,
+		},
+		"mon" : {
+			"0": 1,
+		},
+		"narrowl" : {
+			"0": 1,
+		},
+		"te" : {
+			"0": 1,
+		},
+		"daughter" : {
+			"0": 1,
+		},
+		"begin" : {
+			"0": 1,
+		},
+		"rank" : {
+			"0": 1,
+		},
+		"russi" : {
+			"0": 1,
+		},
+		"ruler" : {
+			"0": 1,
+		},
+		"romano" : {
+			"0": 2,
+		},
+		"dram" : {
+			"0": 2,
+		},
+		"work" : {
+			"0": 1,
+		},
+		"interestin" : {
+			"0": 1,
+		},
+		"compellin" : {
+			"0": 1,
+		},
+		"beas" : {
+			"0": 2,
+		},
+		"sinc" : {
+			"0": 2,
+		},
+		"emotiona" : {
+			"0": 1,
+		},
+		"interes" : {
+			"0": 1,
+		},
+		"anyone'" : {
+			"0": 1,
+		},
+		"adventur" : {
+			"0": 1,
+		},
+		"animate" : {
+			"0": 6,
+		},
+		"fantasticall" : {
+			"0": 1,
+		},
+		"reccomen" : {
+			"0": 1,
+		},
+		"celebritie" : {
+			"0": 1,
+		},
+		"voice" : {
+			"0": 5,
+		},
+		"tryin" : {
+			"0": 1,
+		},
+		"hercule" : {
+			"0": 1,
+		},
+		"especiall" : {
+			"0": 1,
+		},
+		"release" : {
+			"0": 1,
+		},
+		"disne" : {
+			"0": 2,
+		},
+		"anastasi" : {
+			"0": 7,
+		},
+		"show-stoppe" : {
+			"0": 1,
+		},
+		"enchantin" : {
+			"0": 1,
+		},
+		"portrai" : {
+			"0": 1,
+		},
+		"wonderfu" : {
+			"0": 2,
+		},
+		"lin" : {
+			"0": 1,
+		},
+		"somewher" : {
+			"0": 1,
+		},
+		"insid" : {
+			"0": 2,
+		},
+		"dee" : {
+			"0": 1,
+		},
+		"stil" : {
+			"0": 2,
+		},
+		"revolve" : {
+			"0": 1,
+		},
+		"wa" : {
+			"0": 2,
+		},
+		"hat" : {
+			"0": 1,
+		},
+		"collapse" : {
+			"0": 1,
+		},
+		"constantl" : {
+			"0": 1,
+		},
+		"actin" : {
+			"0": 2,
+		},
+		"point" : {
+			"0": 1,
+		},
+		"hig" : {
+			"0": 1,
+		},
+		"thre" : {
+			"0": 2,
+		},
+		"majo" : {
+			"0": 2,
+		},
+		"talke" : {
+			"0": 1,
+		},
+		"viewer" : {
+			"0": 1,
+		},
+		"heart" : {
+			"0": 1,
+		},
+		"unforgettabl" : {
+			"0": 1,
+		},
+		"accus" : {
+			"0": 1,
+		},
+		"clapto" : {
+			"0": 1,
+		},
+		"giv" : {
+			"0": 1,
+		},
+		"lot" : {
+			"0": 1,
+		},
+		"becom" : {
+			"0": 1,
+		},
+		"beautifull" : {
+			"0": 1,
+		},
+		"loyalt" : {
+			"0": 1,
+		},
+		"moo" : {
+			"0": 1,
+		},
+		"botto" : {
+			"0": 1,
+		},
+		"william" : {
+			"0": 2,
+		},
+		"soundtrac" : {
+			"0": 1,
+		},
+		"nutshel" : {
+			"0": 1,
+		},
+		"tragi" : {
+			"0": 1,
+		},
+		"directio" : {
+			"0": 1,
+		},
+		"rea" : {
+			"0": 2,
+		},
+		"super" : {
+			"0": 1,
+		},
+		"bruc" : {
+			"0": 2,
+		},
+		"entir" : {
+			"0": 1,
+		},
+		"hooke" : {
+			"0": 1,
+		},
+		"pic" : {
+			"0": 2,
+		},
+		"kee" : {
+			"0": 1,
+		},
+		"awa" : {
+			"0": 1,
+		},
+		"tear" : {
+			"0": 1,
+		},
+		"shar" : {
+			"0": 2,
+		},
+		"funn" : {
+			"0": 2,
+		},
+		"wack" : {
+			"0": 1,
+		},
+		"ye" : {
+			"0": 1,
+		},
+		"somethin" : {
+			"0": 1,
+		},
+		"withi" : {
+			"0": 1,
+		},
+		"nex" : {
+			"0": 1,
+		},
+		"perso" : {
+			"0": 1,
+		},
+		"recen" : {
+			"0": 3,
+		},
+		"wel" : {
+			"0": 3,
+		},
+		"portra" : {
+			"0": 1,
+		},
+		"pfeiffer'" : {
+			"0": 2,
+		},
+		"structure" : {
+			"0": 1,
+		},
+		"poin" : {
+			"0": 2,
+		},
+		"las" : {
+			"0": 3,
+		},
+		"seaso" : {
+			"0": 1,
+		},
+		"boi" : {
+			"0": 1,
+		},
+		"funnies" : {
+			"0": 1,
+		},
+		"grandmothe" : {
+			"0": 3,
+		},
+		"touc" : {
+			"0": 1,
+		},
+		"pari" : {
+			"0": 3,
+		},
+		"unles" : {
+			"0": 1,
+		},
+		"award" : {
+			"0": 1,
+		},
+		"definit" : {
+			"0": 1,
+		},
+		"handle" : {
+			"0": 1,
+		},
+		"performanc" : {
+			"0": 3,
+		},
+		"instea" : {
+			"0": 1,
+		},
+		"realis" : {
+			"0": 1,
+		},
+		"scene" : {
+			"0": 2,
+		},
+		"eri" : {
+			"0": 1,
+		},
+		"watchin" : {
+			"0": 1,
+		},
+		"scrip" : {
+			"0": 4,
+		},
+		"powerfu" : {
+			"0": 1,
+		},
+		"choic" : {
+			"0": 1,
+		},
+		"amy'" : {
+			"0": 1,
+		},
+		"althoug" : {
+			"0": 3,
+		},
+		"set" : {
+			"0": 1,
+		},
+		"regardin" : {
+			"0": 1,
+		},
+		"fe" : {
+			"0": 1,
+		},
+		"nelso" : {
+			"0": 1,
+		},
+		"worl" : {
+			"0": 1,
+		},
+		"fin" : {
+			"0": 2,
+		},
+		"absorbin" : {
+			"0": 1,
+		},
+		"acto" : {
+			"0": 2,
+		},
+		"alwai" : {
+			"0": 1,
+		},
+		"typecas" : {
+			"0": 1,
+		},
+		"turne" : {
+			"0": 1,
+		},
+		"animater" : {
+			"0": 1,
+		},
+		"fight" : {
+			"0": 1,
+		},
+		"properl" : {
+			"0": 1,
+		},
+		"naturall" : {
+			"0": 1,
+		},
+		"phenomeno" : {
+			"0": 1,
+		},
+		"dragne" : {
+			"0": 1,
+		},
+		"usua" : {
+			"0": 1,
+		},
+		"shaima" : {
+			"0": 1,
+		},
+		"changin" : {
+			"0": 1,
+		},
+		"bes" : {
+			"0": 1,
+		},
+		"year'" : {
+			"0": 1,
+		},
+		"fiftee" : {
+			"0": 1,
+		},
+		"certainl" : {
+			"0": 3,
+		},
+		"rugge" : {
+			"0": 1,
+		},
+		"writer" : {
+			"0": 1,
+		},
+		"sixt" : {
+			"0": 1,
+		},
+		"seamlessl" : {
+			"0": 1,
+		},
+		"har" : {
+			"0": 1,
+		},
+		"heart'" : {
+			"0": 1,
+		},
+		"qualit" : {
+			"0": 1,
+		},
+		"uncomfortabl" : {
+			"0": 1,
+		},
+		"exitin" : {
+			"0": 1,
+		},
+		"developmen" : {
+			"0": 1,
+		},
+		"academ" : {
+			"0": 1,
+		},
+		"fil" : {
+			"0": 21,
+		},
+		"fee" : {
+			"0": 1,
+		},
+		"realisti" : {
+			"0": 2,
+		},
+		"detail" : {
+			"0": 1,
+		},
+		"laugh" : {
+			"0": 1,
+		},
+		"outloo" : {
+			"0": 1,
+		},
+		"signif" : {
+			"0": 1,
+		},
+		"ope" : {
+			"0": 1,
+		},
+		"film" : {
+			"0": 4,
+		},
+		"nelson'" : {
+			"0": 1,
+		},
+		"effectiv" : {
+			"0": 1,
+		},
+		"acros" : {
+			"0": 2,
+		},
+		"chor" : {
+			"0": 1,
+		},
+		"surviv" : {
+			"0": 2,
+		},
+		"wor" : {
+			"0": 1,
+		},
+		"longe" : {
+			"0": 1,
+		},
+		"touchin" : {
+			"0": 2,
+		},
+		"zweibe" : {
+			"0": 1,
+		},
+		"stepmo" : {
+			"0": 2,
+		},
+		"inseperabl" : {
+			"0": 1,
+		},
+		"se" : {
+			"0": 6,
+		},
+		"firs" : {
+			"0": 3,
+		},
+		"creat" : {
+			"0": 1,
+		},
+		"dimensiona" : {
+			"0": 1,
+		},
+		"reall" : {
+			"0": 3,
+		},
+		"featur" : {
+			"0": 1,
+		},
+		"animateo" : {
+			"0": 1,
+		},
+		"togethe" : {
+			"0": 5,
+		},
+		"cr" : {
+			"0": 1,
+		},
+		"charism" : {
+			"0": 1,
+		},
+		"ala" : {
+			"0": 1,
+		},
+		"hou" : {
+			"0": 1,
+		},
+		"sens" : {
+			"0": 2,
+		},
+		"mai" : {
+			"0": 2,
+		},
+		"distinguishe" : {
+			"0": 1,
+		},
+		"stron" : {
+			"0": 2,
+		},
+		"give" : {
+			"0": 1,
+		},
+		"whit" : {
+			"0": 1,
+		},
+		"eye" : {
+			"0": 1,
+		},
+		"growin" : {
+			"0": 1,
+		},
+		"traditiona" : {
+			"0": 1,
+		},
+		"watche" : {
+			"0": 1,
+		},
+		"metho" : {
+			"0": 1,
+		},
+		"lackin" : {
+			"0": 1,
+		},
+		"summer'" : {
+			"0": 1,
+		},
+		"honest" : {
+			"0": 1,
+		},
+		"advanc" : {
+			"0": 1,
+		},
+		"talkin" : {
+			"0": 1,
+		},
+		"includin" : {
+			"0": 2,
+		},
+		"switche" : {
+			"0": 1,
+		},
+		"progresse" : {
+			"0": 2,
+		},
+		"tol" : {
+			"0": 3,
+		},
+		"therapis" : {
+			"0": 2,
+		},
+		"sharin" : {
+			"0": 1,
+		},
+		"huntin" : {
+			"0": 6,
+		},
+		"open" : {
+			"0": 1,
+		},
+		"chun" : {
+			"0": 1,
+		},
+		"lif" : {
+			"0": 5,
+		},
+		"nicel" : {
+			"0": 2,
+		},
+		"even" : {
+			"0": 1,
+		},
+		"plai" : {
+			"0": 1,
+		},
+		"planne" : {
+			"0": 1,
+		},
+		"plo" : {
+			"0": 4,
+		},
+		"russia" : {
+			"0": 1,
+		},
+		"jessi" : {
+			"0": 1,
+		},
+		"differentl" : {
+			"0": 1,
+		},
+		"tensio" : {
+			"0": 1,
+		},
+		"thing" : {
+			"0": 2,
+		},
+		"typ" : {
+			"0": 1,
+		},
+		"sophisticate" : {
+			"0": 2,
+		},
+		"comple" : {
+			"0": 1,
+		},
+		"organize" : {
+			"0": 1,
+		},
+		"view" : {
+			"0": 1,
+		},
+		"ultimatel" : {
+			"0": 1,
+		},
+		"differen" : {
+			"0": 1,
+		},
+		"follo" : {
+			"0": 1,
+		},
+		"wen" : {
+			"0": 1,
+		},
+		"min" : {
+			"0": 1,
+		},
+		"deat" : {
+			"0": 1,
+		},
+		"apar" : {
+			"0": 2,
+		},
+		"grow" : {
+			"0": 3,
+		},
+		"spontaneou" : {
+			"0": 1,
+		},
+		"readin" : {
+			"0": 1,
+		},
+		"write" : {
+			"0": 1,
+		},
+		"pul" : {
+			"0": 1,
+		},
+		"puzzl" : {
+			"0": 1,
+		},
+		"numbe" : {
+			"0": 2,
+		},
+		"cartoonis" : {
+			"0": 1,
+		},
+		"soo" : {
+			"0": 1,
+		},
+		"anymor" : {
+			"0": 1,
+		},
+		"origin" : {
+			"0": 1,
+		},
+		"sa" : {
+			"0": 3,
+		},
+		"fac" : {
+			"0": 2,
+		},
+		"contende" : {
+			"0": 1,
+		},
+		"chape" : {
+			"0": 1,
+		},
+		"childre" : {
+			"0": 2,
+		},
+		"devastat" : {
+			"0": 1,
+		},
+		"situateon" : {
+			"0": 2,
+		},
+		"writin" : {
+			"0": 1,
+		},
+		"liv" : {
+			"0": 1,
+		},
+		"time" : {
+			"0": 4,
+		},
+		"ba" : {
+			"0": 3,
+		},
+		"robi" : {
+			"0": 2,
+		},
+		"vla" : {
+			"0": 1,
+		},
+		"spen" : {
+			"0": 1,
+		},
+		"questio" : {
+			"0": 1,
+		},
+		"clos" : {
+			"0": 1,
+		},
+		"ask" : {
+			"0": 1,
+		},
+		"recognize" : {
+			"0": 1,
+		},
+		"sensitivet" : {
+			"0": 1,
+		},
+		"jorda" : {
+			"0": 2,
+		},
+		"bring" : {
+			"0": 1,
+		},
+		"sprin" : {
+			"0": 1,
+		},
+		"wan" : {
+			"0": 1,
+		},
+		"pfeiffe" : {
+			"0": 2,
+		},
+		"talente" : {
+			"0": 2,
+		},
+		"ric" : {
+			"0": 1,
+		},
+		"tell" : {
+			"0": 1,
+		},
+		"storie" : {
+			"0": 1,
+		},
+		"flawe" : {
+			"0": 1,
+		},
+		"ne" : {
+			"0": 1,
+		},
+		"majorit" : {
+			"0": 1,
+		},
+		"goo" : {
+			"0": 9,
+		},
+		"shrin" : {
+			"0": 1,
+		},
+		"fiv" : {
+			"0": 1,
+		},
+		"mad" : {
+			"0": 1,
+		},
+		"effortlessl" : {
+			"0": 1,
+		},
+		"whos" : {
+			"0": 2,
+		},
+		"insightfu" : {
+			"0": 1,
+		},
+		"possibl" : {
+			"0": 1,
+		},
+		"marriag" : {
+			"0": 8,
+		},
+		"enoug" : {
+			"0": 3,
+		},
+		"dysfunctiona" : {
+			"0": 1,
+		},
+		"america" : {
+			"0": 1,
+		},
+		"classi" : {
+			"0": 1,
+		},
+		"als" : {
+			"0": 2,
+		},
+		"adventure" : {
+			"0": 1,
+		},
+		"close" : {
+			"0": 1,
+		},
+		"warmt" : {
+			"0": 1,
+		},
+		"usuall" : {
+			"0": 1,
+		},
+		"aroun" : {
+			"0": 2,
+		},
+		"ca" : {
+			"0": 7,
+		},
+		"audienc" : {
+			"0": 1,
+		},
+		"inadvertl" : {
+			"0": 1,
+		},
+		"rarel" : {
+			"0": 1,
+		},
+		"azari" : {
+			"0": 1,
+		},
+		"touche" : {
+			"0": 2,
+		},
+		"fal" : {
+			"0": 2,
+		},
+		"movi" : {
+			"0": 5,
+		},
+		"refreshin" : {
+			"0": 1,
+		},
+		"membe" : {
+			"0": 1,
+		},
+		"live" : {
+			"0": 3,
+		},
+		"emotio" : {
+			"0": 2,
+		},
+		"protagonist" : {
+			"0": 1,
+		},
+		"familia" : {
+			"0": 2,
+		},
+		"co" : {
+			"0": 1,
+		},
+		"mak" : {
+			"0": 3,
+		},
+		"realize" : {
+			"0": 1,
+		},
+		"tak" : {
+			"0": 1,
+		},
+		"variou" : {
+			"0": 1,
+		},
+		"pal" : {
+			"0": 1,
+		},
+		"mus" : {
+			"0": 2,
+		},
+		"struggl" : {
+			"0": 1,
+		},
+		"feasibleit" : {
+			"0": 1,
+		},
+		"instan" : {
+			"0": 1,
+		},
+		"infuse" : {
+			"0": 1,
+		},
+		"individua" : {
+			"0": 2,
+		},
+		"automaticall" : {
+			"0": 1,
+		},
+		"manne" : {
+			"0": 1,
+		},
+		"famil" : {
+			"0": 7,
+		},
+		"talen" : {
+			"0": 1,
+		},
+		"skarsgar" : {
+			"0": 1,
+		},
+		"pale" : {
+			"0": 1,
+		},
+		"faul" : {
+			"0": 1,
+		},
+		"figh" : {
+			"0": 1,
+		},
+		"dai" : {
+			"0": 1,
+		},
+		"blac" : {
+			"0": 1,
+		},
+		"disney'" : {
+			"0": 1,
+		},
+		"sag" : {
+			"0": 1,
+		},
+		"directe" : {
+			"0": 1,
+		},
+		"tat" : {
+			"0": 1,
+		},
+		"undeniabl" : {
+			"0": 1,
+		},
+		"flashback" : {
+			"0": 3,
+		},
+		"motio" : {
+			"0": 1,
+		},
+		"contac" : {
+			"0": 1,
+		},
+		"ma" : {
+			"0": 4,
+		},
+		"show" : {
+			"0": 2,
+		},
+		"connectio" : {
+			"0": 1,
+		},
+		"littl" : {
+			"0": 1,
+		},
+		"classic" : {
+			"0": 1,
+		},
+		"pla" : {
+			"0": 1,
+		},
+		"individual" : {
+			"0": 1,
+		},
+		"michell" : {
+			"0": 2,
+		},
+		"1999'" : {
+			"0": 1,
+		},
+		"societ" : {
+			"0": 1,
+		},
+		"hol" : {
+			"0": 2,
+		},
+		"goin" : {
+			"0": 2,
+		},
+		"secon" : {
+			"0": 1,
+		},
+		"slowl" : {
+			"0": 1,
+		},
+		"extraordinar" : {
+			"0": 1,
+		},
+		"storytellin" : {
+			"0": 1,
+		},
+		"everythin" : {
+			"0": 2,
+		},
+		"kati" : {
+			"0": 7,
+		},
+		"tw" : {
+			"0": 5,
+		},
+		"deliberatel" : {
+			"0": 1,
+		},
+		"colleg" : {
+			"0": 1,
+		},
+		"aforementione" : {
+			"0": 1,
+		},
+		"compose" : {
+			"0": 1,
+		},
+		"pictur" : {
+			"0": 3,
+		},
+		"avoi" : {
+			"0": 1,
+		},
+		"ever" : {
+			"0": 1,
+		},
+		"expose" : {
+			"0": 1,
+		},
+		"barto" : {
+			"0": 1,
+		},
+		"ro" : {
+			"0": 1,
+		},
+		"profoundnes" : {
+			"0": 1,
+		},
+		"overcome" : {
+			"0": 1,
+		},
+		"razo" : {
+			"0": 1,
+		},
+		"lac" : {
+			"0": 1,
+		},
+		"wi" : {
+			"0": 1,
+		},
+		"da" : {
+			"0": 2,
+		},
+		"compariso" : {
+			"0": 1,
+		},
+		"cusac" : {
+			"0": 1,
+		},
+		"els" : {
+			"0": 1,
+		},
+		"199" : {
+			"0": 1,
+		},
+		"anothe" : {
+			"0": 3,
+		},
+		"leas" : {
+			"0": 1,
+		},
+		"reine" : {
+			"0": 1,
+		},
+		"characte" : {
+			"0": 2,
+		},
+		"excep" : {
+			"0": 1,
+		},
+		"sequence" : {
+			"0": 1,
+		},
+		"country" : {
+			"0": 1,
+		},
+		"succes" : {
+			"0": 1,
+		},
+		"want" : {
+			"0": 1,
+		},
+		"wife'" : {
+			"0": 1,
+		},
+		"escape" : {
+			"0": 1,
+		},
+		"viewe" : {
+			"0": 5,
+		},
+		"low" : {
+			"0": 1,
+		},
+		"someon" : {
+			"0": 2,
+		},
+		"einstei" : {
+			"0": 1,
+		},
+		"gregariou" : {
+			"0": 1,
+		},
+		"lov" : {
+			"0": 2,
+		},
+		"blend" : {
+			"0": 1,
+		},
+		"devastate" : {
+			"0": 1,
+		},
+		"banalitie" : {
+			"0": 1,
+		},
+		"supervisio" : {
+			"0": 1,
+		},
+		"stick" : {
+			"0": 1,
+		},
+		"deja-v" : {
+			"0": 1,
+		},
+		"downfal" : {
+			"0": 1,
+		},
+		"note" : {
+			"0": 1,
+		},
+		"catch" : {
+			"0": 1,
+		},
+		"screenpla" : {
+			"0": 1,
+		},
+		"character'" : {
+			"0": 1,
+		},
+		"man" : {
+			"0": 2,
+		},
+		"mar" : {
+			"0": 2,
+		},
+		"va" : {
+			"0": 1,
+		},
+		"year" : {
+			"0": 5,
+		},
+		"accentuat" : {
+			"0": 1,
+		},
+		"downfall" : {
+			"0": 1,
+		},
+		"amoun" : {
+			"0": 1,
+		},
+		"jus" : {
+			"0": 3,
+		},
+		"christophe" : {
+			"0": 1,
+		},
+		"high" : {
+			"0": 1,
+		},
+		"flyin" : {
+			"0": 1,
+		},
+		"believabl" : {
+			"0": 1,
+		},
+		"despit" : {
+			"0": 1,
+		},
+		"writte" : {
+			"0": 5,
+		},
+		"humanit" : {
+			"0": 1,
+		},
+		"muc" : {
+			"0": 3,
+		},
+		"thu" : {
+			"0": 1,
+		},
+		"psychologica" : {
+			"0": 1,
+		},
+		"cor" : {
+			"0": 2,
+		},
+		"wonde" : {
+			"0": 1,
+		},
+		"ingeniousnes" : {
+			"0": 1,
+		},
+		"neve" : {
+			"0": 4,
+		},
+		"star" : {
+			"0": 2,
+		},
+		"multi" : {
+			"0": 1,
+		},
+		"highl" : {
+			"0": 2,
+		},
+		"easil" : {
+			"0": 1,
+		},
+		"schmaltz" : {
+			"0": 1,
+		},
+		"shine" : {
+			"0": 1,
+		},
+		"on" : {
+			"0": 9,
+		},
+		"fu" : {
+			"0": 1,
+		},
+		"adventurou" : {
+			"0": 1,
+		},
+		"du" : {
+			"0": 1,
+		},
+		"enjo" : {
+			"0": 1,
+		},
+		"rol" : {
+			"0": 2,
+		},
+		"prodig" : {
+			"0": 1,
+		},
+		"character" : {
+			"0": 9,
+		},
+		"performe" : {
+			"0": 1,
+		},
+		"carelesnes" : {
+			"0": 1,
+		},
+		"awakening" : {
+			"0": 1,
+		},
+		"essentiall" : {
+			"0": 1,
+		},
+		"tel" : {
+			"0": 1,
+		},
+		"wrot" : {
+			"0": 1,
+		},
+		"professo" : {
+			"0": 1,
+		},
+		"action/adventur" : {
+			"0": 1,
+		},
+		"sta" : {
+			"0": 1,
+		},
+		"ge" : {
+			"0": 4,
+		},
+		"discovere" : {
+			"0": 1,
+		},
+		"bosto" : {
+			"0": 1,
+		},
+		"fathe" : {
+			"0": 1,
+		},
+		"actio" : {
+			"0": 1,
+		},
+		"crosswor" : {
+			"0": 1,
+		},
+		"rebelliou" : {
+			"0": 1,
+		},
+		"positio" : {
+			"0": 1,
+		},
+		"dramati" : {
+			"0": 1,
+		},
+		"complexitie" : {
+			"0": 1,
+		},
+		"eart" : {
+			"0": 1,
+		},
+		"righ" : {
+			"0": 3,
+		},
+		"movin" : {
+			"0": 2,
+		},
+		"choice" : {
+			"0": 1,
+		},
+		"lik" : {
+			"0": 5,
+		},
+		"roya" : {
+			"0": 1,
+		},
+		"stella" : {
+			"0": 1,
+		},
+		"whi" : {
+			"0": 1,
+		},
+		"fodde" : {
+			"0": 1,
+		},
+		"damo" : {
+			"0": 4,
+		},
+		"tim" : {
+			"0": 2,
+		},
+		"shtic" : {
+			"0": 1,
+		},
+		"place" : {
+			"0": 1,
+		},
+		"mat" : {
+			"0": 1,
+		},
+		"stor" : {
+			"0": 17,
+		},
+		"eas" : {
+			"0": 1,
+		},
+		"affirmin" : {
+			"0": 1,
+		},
+		"eithe" : {
+			"0": 1,
+		},
+		"be" : {
+			"0": 10,
+		},
+		"san" : {
+			"0": 1,
+		},
+		"foo" : {
+			"0": 1,
+		},
+		"willi" : {
+			"0": 5,
+		},
+		"upbeat" : {
+			"0": 1,
+		},
+		"no" : {
+			"0": 2,
+		},
+		"come" : {
+			"0": 2,
+		},
+		"minute" : {
+			"0": 2,
+		},
+		"comica" : {
+			"0": 1,
+		},
+		"parent" : {
+			"0": 1,
+		},
+		"gu" : {
+			"0": 1,
+		},
+		"mathematica" : {
+			"0": 1,
+		},
+		"exactl" : {
+			"0": 1,
+		},
+		"chasin" : {
+			"0": 1,
+		},
+		"sulliva" : {
+			"0": 1,
+		},
+		"confuse" : {
+			"0": 1,
+		},
+		"fou" : {
+			"0": 2,
+		},
+		"fres" : {
+			"0": 1,
+		},
+		"complet" : {
+			"0": 1,
+		},
+		"heartbreakin" : {
+			"0": 3,
+		},
+		"independen" : {
+			"0": 1,
+		},
+		"unusuall" : {
+			"0": 1,
+		},
+		"beaut" : {
+			"0": 3,
+		},
+		"afflec" : {
+			"0": 1,
+		},
+		"ki" : {
+			"0": 1,
+		},
+		"trea" : {
+			"0": 1,
+		},
+		"chil" : {
+			"0": 1,
+		},
+		"explaine" : {
+			"0": 1,
+		},
+		"contain" : {
+			"0": 2,
+		},
+		"" : {
+			"0": 336,
+		},
+		"yea" : {
+			"0": 3,
+		},
+		"familie" : {
+			"0": 1,
+		},
+		"lightl" : {
+			"0": 1,
+		},
+		"plent" : {
+			"0": 2,
+		},
+		"collapsin" : {
+			"0": 1,
+		},
+		"movie" : {
+			"0": 3,
+		},
+		"pas" : {
+			"0": 1,
+		},
+		"emergenc" : {
+			"0": 1,
+		},
+		"spellbindin" : {
+			"0": 1,
+		},
+		"sporadicall" : {
+			"0": 1,
+		},
+		"unlik" : {
+			"0": 1,
+		},
+		"hit" : {
+			"0": 3,
+		},
+		"com" : {
+			"0": 2,
+		},
+		"hollywoo" : {
+			"0": 1,
+		},
+		"everyda" : {
+			"0": 1,
+		},
+		"wil" : {
+			"0": 12,
+		},
+		"film'" : {
+			"0": 2,
+		},
+		"in_docs": {
+			"vagu": [
+7, 			],
+			"runnin": [
+7, 			],
+			"churc": [
+7, 			],
+			"younges": [
+7, 			],
+			"loca": [
+7, 			],
+			"foundateo": [
+7, 			],
+			"friendshi": [
+7, 			],
+			"stra": [
+7, 			],
+			"disagreemen": [
+7, 			],
+			"brother": [
+7, 			],
+			"siste": [
+7, 			],
+			"mothe": [
+7, 			],
+			"consist": [
+7, 			],
+			"advisabl": [
+7, 			],
+			"revie": [
+7, 			],
+			"viewin": [
+7, 			],
+			"wors": [
+7, 			],
+			"happe": [
+7, 			],
+			"kne": [
+7, 			],
+			"fi": [
+7, 			],
+			"guid": [
+7, 			],
+			"sullivan": [
+7, 			],
+			"fightin": [
+7, 			],
+			"beside": [
+6, 			],
+			"studi": [
+6, 			],
+			"nic": [
+6, 			],
+			"awfull": [
+7, 			],
+			"alik": [
+6, 			],
+			"oka": [
+6, 			],
+			"showpiece": [
+6, 			],
+			"watc": [
+7, 			],
+			"credit": [
+6, 			],
+			"en": [
+6, 			],
+			"radi": [
+6, 			],
+			"assis": [
+7, 			],
+			"hal": [
+7, 			],
+			"singer": [
+6, 			],
+			"top-4": [
+6, 			],
+			"provid": [
+6, 			],
+			"song": [
+6, 			],
+			"feature": [
+6, 			],
+			"styl": [
+6, 			],
+			"occasiona": [
+7, 			],
+			"paintin": [
+6, 			],
+			"rendere": [
+6, 			],
+			"background": [
+6, 			],
+			"musica": [
+6, 			],
+			"ac": [
+6, 			],
+			"withou": [
+6, 			],
+			"eve": [
+6, 			],
+			"see": [
+6, 			],
+			"gorgeou": [
+6, 			],
+			"almos": [
+6, 			],
+			"worke": [
+6, 			],
+			"distrac": [
+6, 			],
+			"howeve": [
+6, 			],
+			"thin": [
+6, 			],
+			"impressionis": [
+6, 			],
+			"han": [
+6, 			],
+			"pe": [
+6, 			],
+			"rasputin'": [
+6, 			],
+			"comed": [
+6, 			],
+			"understan": [
+7, 			],
+			"develop": [
+6, 			],
+			"relationshi": [
+6, 			],
+			"bante": [
+6, 			],
+			"adult": [
+6, 			],
+			"bore": [
+6, 			],
+			"fas": [
+6, 			],
+			"alon": [
+6, 			],
+			"move": [
+6, 			],
+			"late": [
+6, 			],
+			"follow": [
+7, 			],
+			"kid": [
+6, 			],
+			"lo": [
+6, 			],
+			"quit": [
+6, 			],
+			"actuall": [
+6, 			],
+			"reveng": [
+6, 			],
+			"plot": [
+6, 			],
+			"dea": [
+6, 			],
+			"meanwhil": [
+6, 			],
+			"mean": [
+6, 			],
+			"commone": [
+6, 			],
+			"reveale": [
+6, 			],
+			"cours": [
+6, 			],
+			"grea": [
+6, 			],
+			"prince": [
+6, 			],
+			"pos": [
+6, 			],
+			"mone": [
+6, 			],
+			"rewar": [
+6, 			],
+			"schem": [
+6, 			],
+			"pu": [
+6, 			],
+			"gramma": [
+6, 			],
+			"kelse": [
+6, 			],
+			"materia": [
+7, 			],
+			"joh": [
+6, 			],
+			"dimitr": [
+6, 			],
+			"run": [
+6, 			],
+			"rya": [
+6, 			],
+			"anyon": [
+7, 			],
+			"any": [
+6, 			],
+			"name": [
+6, 			],
+			"woma": [
+6, 			],
+			"me": [
+6, 			],
+			"revolutio": [
+6, 			],
+			"belove": [
+6, 			],
+			"someda": [
+6, 			],
+			"hopin": [
+6, 			],
+			"memor": [
+6, 			],
+			"los": [
+6, 			],
+			"get": [
+6, 			],
+			"landsbur": [
+6, 			],
+			"angel": [
+6, 			],
+			"lloy": [
+6, 			],
+			"rasputi": [
+6, 			],
+			"rui": [
+7, 			],
+			"youn": [
+6, 			],
+			"mon": [
+6, 			],
+			"narrowl": [
+6, 			],
+			"te": [
+7, 			],
+			"daughter": [
+6, 			],
+			"begin": [
+6, 			],
+			"rank": [
+6, 			],
+			"russi": [
+6, 			],
+			"ruler": [
+6, 			],
+			"romano": [
+6, 			],
+			"dram": [
+6, 			],
+			"work": [
+6, 			],
+			"interestin": [
+6, 			],
+			"compellin": [
+6, 			],
+			"beas": [
+6, 			],
+			"sinc": [
+6, 			],
+			"emotiona": [
+6, 			],
+			"interes": [
+6, 			],
+			"anyone'": [
+6, 			],
+			"adventur": [
+6, 			],
+			"animate": [
+6, 			],
+			"fantasticall": [
+6, 			],
+			"reccomen": [
+6, 			],
+			"celebritie": [
+6, 			],
+			"voice": [
+6, 			],
+			"tryin": [
+6, 			],
+			"hercule": [
+6, 			],
+			"especiall": [
+6, 			],
+			"release": [
+6, 			],
+			"disne": [
+6, 			],
+			"anastasi": [
+6, 			],
+			"show-stoppe": [
+6, 			],
+			"enchantin": [
+5, 			],
+			"portrai": [
+7, 			],
+			"wonderfu": [
+5, 			],
+			"lin": [
+5, 			],
+			"somewher": [
+5, 			],
+			"insid": [
+5, 			],
+			"dee": [
+5, 			],
+			"stil": [
+5, 			],
+			"revolve": [
+7, 			],
+			"wa": [
+5, 			],
+			"hat": [
+5, 			],
+			"collapse": [
+5, 			],
+			"constantl": [
+5, 			],
+			"actin": [
+4, 			],
+			"point": [
+5, 			],
+			"hig": [
+5, 			],
+			"thre": [
+5, 			],
+			"majo": [
+5, 			],
+			"talke": [
+5, 			],
+			"viewer": [
+5, 			],
+			"heart": [
+5, 			],
+			"unforgettabl": [
+5, 			],
+			"accus": [
+5, 			],
+			"clapto": [
+5, 			],
+			"giv": [
+7, 			],
+			"lot": [
+6, 			],
+			"becom": [
+5, 			],
+			"beautifull": [
+5, 			],
+			"loyalt": [
+7, 			],
+			"moo": [
+5, 			],
+			"botto": [
+5, 			],
+			"william": [
+4, 			],
+			"soundtrac": [
+5, 			],
+			"nutshel": [
+4, 			],
+			"tragi": [
+4, 			],
+			"directio": [
+5, 			],
+			"rea": [
+5, 			],
+			"super": [
+5, 			],
+			"bruc": [
+5, 			],
+			"entir": [
+5, 			],
+			"hooke": [
+5, 			],
+			"pic": [
+5, 			],
+			"kee": [
+5, 			],
+			"awa": [
+7, 			],
+			"tear": [
+5, 			],
+			"shar": [
+5, 			],
+			"funn": [
+5, 			],
+			"wack": [
+6, 			],
+			"ye": [
+5, 			],
+			"somethin": [
+6, 			],
+			"withi": [
+5, 			],
+			"nex": [
+5, 			],
+			"perso": [
+5, 			],
+			"recen": [
+5, 			],
+			"wel": [
+5, 			],
+			"portra": [
+5, 			],
+			"pfeiffer'": [
+5, 			],
+			"structure": [
+6, 			],
+			"poin": [
+4, 			],
+			"las": [
+5, 			],
+			"seaso": [
+5, 			],
+			"boi": [
+7, 			],
+			"funnies": [
+6, 			],
+			"grandmothe": [
+6, 			],
+			"touc": [
+5, 			],
+			"pari": [
+6, 			],
+			"unles": [
+6, 			],
+			"award": [
+5, 			],
+			"definit": [
+5, 			],
+			"handle": [
+5, 			],
+			"performanc": [
+5, 			],
+			"instea": [
+6, 			],
+			"realis": [
+5, 			],
+			"scene": [
+5, 			],
+			"eri": [
+5, 			],
+			"watchin": [
+7, 			],
+			"scrip": [
+4, 			],
+			"powerfu": [
+5, 			],
+			"choic": [
+5, 			],
+			"amy'": [
+4, 			],
+			"althoug": [
+5, 			],
+			"set": [
+5, 			],
+			"regardin": [
+7, 			],
+			"fe": [
+5, 			],
+			"nelso": [
+5, 			],
+			"worl": [
+5, 			],
+			"fin": [
+6, 			],
+			"absorbin": [
+4, 			],
+			"acto": [
+5, 			],
+			"alwai": [
+5, 			],
+			"typecas": [
+5, 			],
+			"turne": [
+5, 			],
+			"animater": [
+6, 			],
+			"fight": [
+5, 			],
+			"properl": [
+7, 			],
+			"naturall": [
+6, 			],
+			"phenomeno": [
+4, 			],
+			"dragne": [
+5, 			],
+			"usua": [
+5, 			],
+			"shaima": [
+5, 			],
+			"changin": [
+5, 			],
+			"bes": [
+5, 			],
+			"year'": [
+5, 			],
+			"fiftee": [
+5, 			],
+			"certainl": [
+5, 			],
+			"rugge": [
+5, 			],
+			"writer": [
+5, 			],
+			"sixt": [
+5, 			],
+			"seamlessl": [
+6, 			],
+			"har": [
+5, 			],
+			"heart'": [
+5, 			],
+			"qualit": [
+6, 			],
+			"uncomfortabl": [
+5, 			],
+			"exitin": [
+7, 			],
+			"developmen": [
+7, 			],
+			"academ": [
+5, 			],
+			"fil": [
+4, 			],
+			"fee": [
+5, 			],
+			"realisti": [
+5, 			],
+			"detail": [
+7, 			],
+			"laugh": [
+5, 			],
+			"outloo": [
+5, 			],
+			"signif": [
+4, 			],
+			"ope": [
+5, 			],
+			"film": [
+5, 			],
+			"nelson'": [
+5, 			],
+			"effectiv": [
+5, 			],
+			"acros": [
+5, 			],
+			"chor": [
+5, 			],
+			"surviv": [
+5, 			],
+			"wor": [
+5, 			],
+			"longe": [
+5, 			],
+			"touchin": [
+5, 			],
+			"zweibe": [
+5, 			],
+			"stepmo": [
+5, 			],
+			"inseperabl": [
+7, 			],
+			"se": [
+4, 			],
+			"firs": [
+5, 			],
+			"creat": [
+6, 			],
+			"dimensiona": [
+5, 			],
+			"reall": [
+5, 			],
+			"featur": [
+6, 			],
+			"animateo": [
+6, 			],
+			"togethe": [
+5, 			],
+			"cr": [
+5, 			],
+			"charism": [
+5, 			],
+			"ala": [
+5, 			],
+			"hou": [
+7, 			],
+			"sens": [
+5, 			],
+			"mai": [
+5, 			],
+			"distinguishe": [
+5, 			],
+			"stron": [
+5, 			],
+			"give": [
+5, 			],
+			"whit": [
+4, 			],
+			"eye": [
+5, 			],
+			"growin": [
+5, 			],
+			"traditiona": [
+4, 			],
+			"watche": [
+5, 			],
+			"metho": [
+5, 			],
+			"lackin": [
+6, 			],
+			"summer'": [
+5, 			],
+			"honest": [
+5, 			],
+			"advanc": [
+6, 			],
+			"talkin": [
+5, 			],
+			"includin": [
+5, 			],
+			"switche": [
+5, 			],
+			"progresse": [
+5, 			],
+			"tol": [
+5, 			],
+			"therapis": [
+5, 			],
+			"sharin": [
+5, 			],
+			"huntin": [
+4, 			],
+			"open": [
+5, 			],
+			"chun": [
+5, 			],
+			"lif": [
+5, 			],
+			"nicel": [
+5, 			],
+			"even": [
+5, 			],
+			"plai": [
+5, 			],
+			"planne": [
+5, 			],
+			"plo": [
+6, 			],
+			"russia": [
+6, 			],
+			"jessi": [
+5, 			],
+			"differentl": [
+5, 			],
+			"tensio": [
+7, 			],
+			"thing": [
+5, 			],
+			"typ": [
+5, 			],
+			"sophisticate": [
+5, 			],
+			"comple": [
+4, 			],
+			"organize": [
+5, 			],
+			"view": [
+5, 			],
+			"ultimatel": [
+5, 			],
+			"differen": [
+5, 			],
+			"follo": [
+5, 			],
+			"wen": [
+5, 			],
+			"min": [
+5, 			],
+			"deat": [
+4, 			],
+			"apar": [
+5, 			],
+			"grow": [
+5, 			],
+			"spontaneou": [
+5, 			],
+			"readin": [
+7, 			],
+			"write": [
+5, 			],
+			"pul": [
+4, 			],
+			"puzzl": [
+5, 			],
+			"numbe": [
+6, 			],
+			"cartoonis": [
+5, 			],
+			"soo": [
+6, 			],
+			"anymor": [
+5, 			],
+			"origin": [
+6, 			],
+			"sa": [
+5, 			],
+			"fac": [
+5, 			],
+			"contende": [
+5, 			],
+			"chape": [
+7, 			],
+			"childre": [
+5, 			],
+			"devastat": [
+5, 			],
+			"situateon": [
+4, 			],
+			"writin": [
+5, 			],
+			"liv": [
+5, 			],
+			"time": [
+5, 			],
+			"ba": [
+5, 			],
+			"robi": [
+4, 			],
+			"vla": [
+6, 			],
+			"spen": [
+5, 			],
+			"questio": [
+5, 			],
+			"clos": [
+7, 			],
+			"ask": [
+5, 			],
+			"recognize": [
+5, 			],
+			"sensitivet": [
+4, 			],
+			"jorda": [
+5, 			],
+			"bring": [
+5, 			],
+			"sprin": [
+5, 			],
+			"wan": [
+5, 			],
+			"pfeiffe": [
+5, 			],
+			"talente": [
+4, 			],
+			"ric": [
+4, 			],
+			"tell": [
+5, 			],
+			"storie": [
+5, 			],
+			"flawe": [
+5, 			],
+			"ne": [
+4, 			],
+			"majorit": [
+5, 			],
+			"goo": [
+4, 			],
+			"shrin": [
+4, 			],
+			"fiv": [
+7, 			],
+			"mad": [
+5, 			],
+			"effortlessl": [
+4, 			],
+			"whos": [
+4, 			],
+			"insightfu": [
+5, 			],
+			"possibl": [
+5, 			],
+			"marriag": [
+5, 			],
+			"enoug": [
+5, 			],
+			"dysfunctiona": [
+5, 			],
+			"america": [
+5, 			],
+			"classi": [
+5, 			],
+			"als": [
+5, 			],
+			"adventure": [
+7, 			],
+			"close": [
+4, 			],
+			"warmt": [
+4, 			],
+			"usuall": [
+5, 			],
+			"aroun": [
+5, 			],
+			"ca": [
+5, 			],
+			"audienc": [
+5, 			],
+			"inadvertl": [
+4, 			],
+			"rarel": [
+5, 			],
+			"azari": [
+6, 			],
+			"touche": [
+5, 			],
+			"fal": [
+5, 			],
+			"movi": [
+5, 			],
+			"refreshin": [
+4, 			],
+			"membe": [
+6, 			],
+			"live": [
+5, 			],
+			"emotio": [
+5, 			],
+			"protagonist": [
+4, 			],
+			"familia": [
+4, 			],
+			"co": [
+4, 			],
+			"mak": [
+4, 			],
+			"realize": [
+6, 			],
+			"tak": [
+4, 			],
+			"variou": [
+7, 			],
+			"pal": [
+4, 			],
+			"mus": [
+4, 			],
+			"struggl": [
+4, 			],
+			"feasibleit": [
+4, 			],
+			"instan": [
+5, 			],
+			"infuse": [
+4, 			],
+			"individua": [
+4, 			],
+			"automaticall": [
+4, 			],
+			"manne": [
+4, 			],
+			"famil": [
+5, 			],
+			"talen": [
+4, 			],
+			"skarsgar": [
+4, 			],
+			"pale": [
+4, 			],
+			"faul": [
+5, 			],
+			"figh": [
+7, 			],
+			"dai": [
+5, 			],
+			"blac": [
+4, 			],
+			"disney'": [
+6, 			],
+			"sag": [
+4, 			],
+			"directe": [
+4, 			],
+			"tat": [
+4, 			],
+			"undeniabl": [
+5, 			],
+			"flashback": [
+5, 			],
+			"motio": [
+5, 			],
+			"contac": [
+4, 			],
+			"ma": [
+4, 			],
+			"show": [
+5, 			],
+			"connectio": [
+5, 			],
+			"littl": [
+4, 			],
+			"classic": [
+6, 			],
+			"pla": [
+5, 			],
+			"individual": [
+5, 			],
+			"michell": [
+5, 			],
+			"1999'": [
+5, 			],
+			"societ": [
+4, 			],
+			"hol": [
+6, 			],
+			"goin": [
+6, 			],
+			"secon": [
+5, 			],
+			"slowl": [
+5, 			],
+			"extraordinar": [
+4, 			],
+			"storytellin": [
+4, 			],
+			"everythin": [
+4, 			],
+			"kati": [
+5, 			],
+			"tw": [
+4, 			],
+			"deliberatel": [
+4, 			],
+			"colleg": [
+4, 			],
+			"aforementione": [
+4, 			],
+			"compose": [
+5, 			],
+			"pictur": [
+5, 			],
+			"avoi": [
+7, 			],
+			"ever": [
+7, 			],
+			"expose": [
+4, 			],
+			"barto": [
+6, 			],
+			"ro": [
+5, 			],
+			"profoundnes": [
+4, 			],
+			"overcome": [
+4, 			],
+			"razo": [
+5, 			],
+			"lac": [
+4, 			],
+			"wi": [
+6, 			],
+			"da": [
+5, 			],
+			"compariso": [
+4, 			],
+			"cusac": [
+6, 			],
+			"els": [
+4, 			],
+			"199": [
+5, 			],
+			"anothe": [
+5, 			],
+			"leas": [
+5, 			],
+			"reine": [
+5, 			],
+			"characte": [
+4, 			],
+			"excep": [
+6, 			],
+			"sequence": [
+6, 			],
+			"country": [
+5, 			],
+			"succes": [
+4, 			],
+			"want": [
+5, 			],
+			"wife'": [
+4, 			],
+			"escape": [
+6, 			],
+			"viewe": [
+5, 			],
+			"low": [
+5, 			],
+			"someon": [
+4, 			],
+			"einstei": [
+4, 			],
+			"gregariou": [
+4, 			],
+			"lov": [
+5, 			],
+			"blend": [
+4, 			],
+			"devastate": [
+4, 			],
+			"banalitie": [
+4, 			],
+			"supervisio": [
+4, 			],
+			"stick": [
+7, 			],
+			"deja-v": [
+4, 			],
+			"downfal": [
+6, 			],
+			"note": [
+4, 			],
+			"catch": [
+6, 			],
+			"screenpla": [
+5, 			],
+			"character'": [
+5, 			],
+			"man": [
+5, 			],
+			"mar": [
+4, 			],
+			"va": [
+4, 			],
+			"year": [
+5, 			],
+			"accentuat": [
+4, 			],
+			"downfall": [
+4, 			],
+			"amoun": [
+4, 			],
+			"jus": [
+4, 			],
+			"christophe": [
+6, 			],
+			"high": [
+5, 			],
+			"flyin": [
+4, 			],
+			"believabl": [
+5, 			],
+			"despit": [
+7, 			],
+			"writte": [
+4, 			],
+			"humanit": [
+4, 			],
+			"muc": [
+5, 			],
+			"thu": [
+4, 			],
+			"psychologica": [
+4, 			],
+			"cor": [
+4, 			],
+			"wonde": [
+5, 			],
+			"ingeniousnes": [
+4, 			],
+			"neve": [
+6, 			],
+			"star": [
+4, 			],
+			"multi": [
+4, 			],
+			"highl": [
+5, 			],
+			"easil": [
+6, 			],
+			"schmaltz": [
+4, 			],
+			"shine": [
+5, 			],
+			"on": [
+4, 			],
+			"fu": [
+6, 			],
+			"adventurou": [
+5, 			],
+			"du": [
+4, 			],
+			"enjo": [
+6, 			],
+			"rol": [
+4, 			],
+			"prodig": [
+4, 			],
+			"character": [
+5, 			],
+			"performe": [
+4, 			],
+			"carelesnes": [
+4, 			],
+			"awakening": [
+4, 			],
+			"essentiall": [
+7, 			],
+			"tel": [
+5, 			],
+			"wrot": [
+5, 			],
+			"professo": [
+4, 			],
+			"action/adventur": [
+5, 			],
+			"sta": [
+5, 			],
+			"ge": [
+5, 			],
+			"discovere": [
+4, 			],
+			"bosto": [
+4, 			],
+			"fathe": [
+7, 			],
+			"actio": [
+5, 			],
+			"crosswor": [
+5, 			],
+			"rebelliou": [
+4, 			],
+			"positio": [
+4, 			],
+			"dramati": [
+7, 			],
+			"complexitie": [
+6, 			],
+			"eart": [
+5, 			],
+			"righ": [
+4, 			],
+			"movin": [
+4, 			],
+			"choice": [
+4, 			],
+			"lik": [
+4, 			],
+			"roya": [
+6, 			],
+			"stella": [
+4, 			],
+			"whi": [
+4, 			],
+			"fodde": [
+6, 			],
+			"damo": [
+4, 			],
+			"tim": [
+6, 			],
+			"shtic": [
+4, 			],
+			"place": [
+4, 			],
+			"mat": [
+4, 			],
+			"stor": [
+4, 			],
+			"eas": [
+4, 			],
+			"affirmin": [
+4, 			],
+			"eithe": [
+6, 			],
+			"be": [
+4, 			],
+			"san": [
+4, 			],
+			"foo": [
+6, 			],
+			"willi": [
+5, 			],
+			"upbeat": [
+4, 			],
+			"no": [
+5, 			],
+			"come": [
+5, 			],
+			"minute": [
+5, 			],
+			"comica": [
+6, 			],
+			"parent": [
+5, 			],
+			"gu": [
+4, 			],
+			"mathematica": [
+4, 			],
+			"exactl": [
+7, 			],
+			"chasin": [
+4, 			],
+			"sulliva": [
+7, 			],
+			"confuse": [
+4, 			],
+			"fou": [
+4, 			],
+			"fres": [
+4, 			],
+			"complet": [
+4, 			],
+			"heartbreakin": [
+5, 			],
+			"independen": [
+4, 			],
+			"unusuall": [
+4, 			],
+			"beaut": [
+5, 			],
+			"afflec": [
+4, 			],
+			"ki": [
+4, 			],
+			"trea": [
+7, 			],
+			"chil": [
+4, 			],
+			"explaine": [
+6, 			],
+			"contain": [
+6, 			],
+			"": [
+4, 			],
+			"yea": [
+5, 			],
+			"familie": [
+5, 			],
+			"lightl": [
+7, 			],
+			"plent": [
+4, 			],
+			"collapsin": [
+5, 			],
+			"movie": [
+4, 			],
+			"pas": [
+5, 			],
+			"emergenc": [
+4, 			],
+			"spellbindin": [
+5, 			],
+			"sporadicall": [
+4, 			],
+			"unlik": [
+4, 			],
+			"hit": [
+4, 			],
+			"com": [
+5, 			],
+			"hollywoo": [
+4, 			],
+			"everyda": [
+5, 			],
+			"wil": [
+4, 			],
+			"film'": [
+5, 			],
+}

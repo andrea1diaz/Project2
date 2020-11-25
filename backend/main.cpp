@@ -8,11 +8,7 @@
 #include "porter_stemming.cpp"
 
 int main () {
-	data_processor process_data("stopwords.txt");
-
-	process_data.add("data.txt");
-	process_data.add("data1.txt");
-	process_data.add("data2.txt");
+	data_processor process_data;
 
 
 	return 0;

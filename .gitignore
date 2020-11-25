@@ -3,4 +3,6 @@ front/node_modules/
 backend/build/
 
 *.swp
-
+.DS_Store
+*.dSYM/
+*.out
