@@ -1,149 +1,149 @@
 {
 	"docs": {
-		"4": docs/cv718_11434.txt,
-		"53": docs/cv711_11665.txt,
-		"17": docs/cv075_6500.txt,
-		"14": docs/cv754_7216.txt,
-		"43": docs/cv396_17989.txt,
-		"81": docs/cv758_9671.txt,
-		"57": docs/cv286_25050.txt,
-		"25": docs/cv926_17059.txt,
-		"59": docs/cv019_14482.txt,
-		"78": docs/cv389_9369.txt,
-		"61": docs/cv631_4967.txt,
-		"60": docs/cv186_2269.txt,
-		"88": docs/cv667_18467.txt,
-		"36": docs/cv483_16378.txt,
-		"44": docs/cv618_8974.txt,
-		"49": docs/cv520_12295.txt,
-		"26": docs/cv080_13465.txt,
-		"18": docs/cv843_15544.txt,
-		"127": docs/cv895_21022.txt,
-		"56": docs/cv004_11636.txt,
-		"86": docs/cv422_9381.txt,
-		"42": docs/cv117_24295.txt,
-		"62": docs/cv456_18985.txt,
-		"74": docs/cv616_29319.txt,
-		"95": docs/cv818_10211.txt,
-		"24": docs/cv403_6621.txt,
-		"58": docs/cv541_28835.txt,
-		"38": docs/cv784_14394.txt,
-		"147": docs/cv807_21740.txt,
-		"28": docs/cv688_7368.txt,
-		"77": docs/cv245_8569.txt,
-		"51": docs/cv195_14528.txt,
-		"31": docs/cv596_28311.txt,
-		"51": docs/cv789_12136.txt,
-		"64": docs/cv104_18134.txt,
-		"28": docs/cv424_8831.txt,
-		"13": docs/cv901_11017.txt,
-		"61": docs/cv360_8398.txt,
-		"83": docs/cv023_12672.txt,
-		"115": docs/cv929_16908.txt,
-		"70": docs/cv990_11591.txt,
-		"68": docs/cv885_12318.txt,
-		"55": docs/cv040_8276.txt,
-		"44": docs/cv928_9168.txt,
-		"34": docs/cv232_14991.txt,
-		"159": docs/cv488_19856.txt,
-		"34": docs/cv478_14309.txt,
-		"57": docs/cv828_19831.txt,
-		"234": docs/cv638_2953.txt,
-		"161": docs/cv765_19037.txt,
-		"112": docs/cv439_15970.txt,
-		"83": docs/cv291_26635.txt,
-		"53": docs/cv355_16413.txt,
-		"31": docs/cv114_18398.txt,
-		"57": docs/cv712_22920.txt,
-		"83": docs/cv677_17715.txt,
-		"127": docs/cv633_29837.txt,
-		"34": docs/cv886_18177.txt,
-		"82": docs/cv262_12649.txt,
-		"67": docs/cv458_8604.txt,
-		"95": docs/cv979_18921.txt,
-		"40": docs/cv308_5016.txt,
-		"51": docs/cv374_25436.txt,
-		"75": docs/cv921_12747.txt,
-		"18": docs/cv093_13951.txt,
-		"25": docs/cv938_10220.txt,
-		"116": docs/cv109_21172.txt,
-		"28": docs/cv387_11507.txt,
-		"85": docs/cv739_11209.txt,
-		"36": docs/cv524_23627.txt,
-		"48": docs/cv102_7846.txt,
-		"67": docs/cv356_25163.txt,
-		"43": docs/cv009_29592.txt,
-		"65": docs/cv914_28742.txt,
-		"58": docs/cv911_20260.txt,
-		"66": docs/cv774_13845.txt,
-		"37": docs/cv788_25272.txt,
-		"128": docs/cv798_23531.txt,
-		"109": docs/cv401_12605.txt,
-		"23": docs/cv881_13254.txt,
-		"75": docs/cv840_16321.txt,
-		"40": docs/cv820_22892.txt,
-		"29": docs/cv459_20319.txt,
-		"72": docs/cv001_18431.txt,
-		"158": docs/cv717_15953.txt,
-		"190": docs/cv532_6522.txt,
-		"101": docs/cv015_29439.txt,
-		"183": docs/cv499_10658.txt,
-		"158": docs/cv865_2895.txt,
-		"85": docs/cv968_24218.txt,
-		"20": docs/cv210_9312.txt,
-		"56": docs/cv973_10066.txt,
-		"115": docs/cv317_24049.txt,
-		"62": docs/cv287_15900.txt,
-		"73": docs/cv755_23616.txt,
-		"135": docs/cv316_6370.txt,
-		"62": docs/cv370_5221.txt,
-		"110": docs/cv590_19290.txt,
-		"70": docs/cv178_12972.txt,
-		"87": docs/cv953_6836.txt,
-		"66": docs/cv311_16002.txt,
-		"39": docs/cv617_9322.txt,
-		"26": docs/cv353_18159.txt,
-		"85": docs/cv415_22517.txt,
-		"150": docs/cv397_29023.txt,
-		"82": docs/cv285_16494.txt,
-		"83": docs/cv880_29800.txt,
-		"75": docs/cv882_10026.txt,
-		"75": docs/cv932_13401.txt,
-		"71": docs/cv296_12251.txt,
-		"138": docs/cv714_18502.txt,
-		"63": docs/cv705_11059.txt,
-		"33": docs/cv118_28980.txt,
-		"141": docs/cv649_12735.txt,
-		"29": docs/cv310_13091.txt,
-		"152": docs/cv052_29378.txt,
-		"145": docs/cv294_11684.txt,
-		"190": docs/cv830_6014.txt,
-		"105": docs/cv603_17694.txt,
-		"43": docs/cv721_29121.txt,
-		"172": docs/cv600_23878.txt,
-		"223": docs/cv737_28907.txt,
-		"97": docs/cv371_7630.txt,
-		"40": docs/cv517_19219.txt,
-		"89": docs/cv361_28944.txt,
-		"145": docs/cv054_4230.txt,
-		"47": docs/cv301_12146.txt,
-		"42": docs/cv996_11592.txt,
-		"108": docs/cv047_1754.txt,
-		"75": docs/cv682_16139.txt,
-		"150": docs/cv907_3541.txt,
-		"63": docs/cv174_9659.txt,
-		"82": docs/cv038_9749.txt,
-		"43": docs/cv868_11948.txt,
-		"64": docs/cv413_7398.txt,
-		"173": docs/cv233_15964.txt,
-		"50": docs/cv959_14611.txt,
-		"41": docs/cv655_11154.txt,
-		"264": docs/cv011_12166.txt,
-		"198": docs/cv030_21593.txt,
-		"121": docs/cv787_13743.txt,
-		"135": docs/cv605_11800.txt,
-		"131": docs/cv434_5793.txt,
-		"207": docs/cv276_15684.txt		
+		"716": docs/cv718_11434.txt,
+		"715": docs/cv711_11665.txt,
+		"713": docs/cv075_6500.txt,
+		"712": docs/cv754_7216.txt,
+		"709": docs/cv396_17989.txt,
+		"707": docs/cv758_9671.txt,
+		"706": docs/cv286_25050.txt,
+		"705": docs/cv926_17059.txt,
+		"704": docs/cv019_14482.txt,
+		"699": docs/cv389_9369.txt,
+		"696": docs/cv631_4967.txt,
+		"711": docs/cv186_2269.txt,
+		"695": docs/cv667_18467.txt,
+		"693": docs/cv483_16378.txt,
+		"692": docs/cv618_8974.txt,
+		"690": docs/cv520_12295.txt,
+		"689": docs/cv080_13465.txt,
+		"710": docs/cv843_15544.txt,
+		"685": docs/cv895_21022.txt,
+		"708": docs/cv004_11636.txt,
+		"684": docs/cv422_9381.txt,
+		"683": docs/cv117_24295.txt,
+		"682": docs/cv456_18985.txt,
+		"681": docs/cv616_29319.txt,
+		"679": docs/cv818_10211.txt,
+		"675": docs/cv403_6621.txt,
+		"674": docs/cv541_28835.txt,
+		"673": docs/cv784_14394.txt,
+		"642": docs/cv807_21740.txt,
+		"670": docs/cv688_7368.txt,
+		"615": docs/cv245_8569.txt,
+		"667": docs/cv195_14528.txt,
+		"663": docs/cv596_28311.txt,
+		"702": docs/cv789_12136.txt,
+		"616": docs/cv104_18134.txt,
+		"661": docs/cv424_8831.txt,
+		"660": docs/cv901_11017.txt,
+		"659": docs/cv360_8398.txt,
+		"641": docs/cv023_12672.txt,
+		"608": docs/cv929_16908.txt,
+		"658": docs/cv990_11591.txt,
+		"652": docs/cv885_12318.txt,
+		"655": docs/cv040_8276.txt,
+		"688": docs/cv928_9168.txt,
+		"654": docs/cv232_14991.txt,
+		"588": docs/cv488_19856.txt,
+		"653": docs/cv478_14309.txt,
+		"656": docs/cv828_19831.txt,
+		"651": docs/cv638_2953.txt,
+		"650": docs/cv765_19037.txt,
+		"665": docs/cv439_15970.txt,
+		"599": docs/cv291_26635.txt,
+		"647": docs/cv355_16413.txt,
+		"643": docs/cv114_18398.txt,
+		"644": docs/cv712_22920.txt,
+		"638": docs/cv677_17715.txt,
+		"686": docs/cv633_29837.txt,
+		"657": docs/cv886_18177.txt,
+		"677": docs/cv262_12649.txt,
+		"637": docs/cv458_8604.txt,
+		"634": docs/cv979_18921.txt,
+		"640": docs/cv308_5016.txt,
+		"633": docs/cv374_25436.txt,
+		"632": docs/cv921_12747.txt,
+		"676": docs/cv093_13951.txt,
+		"666": docs/cv938_10220.txt,
+		"645": docs/cv109_21172.txt,
+		"631": docs/cv387_11507.txt,
+		"630": docs/cv739_11209.txt,
+		"646": docs/cv524_23627.txt,
+		"629": docs/cv102_7846.txt,
+		"687": docs/cv356_25163.txt,
+		"678": docs/cv009_29592.txt,
+		"668": docs/cv914_28742.txt,
+		"627": docs/cv911_20260.txt,
+		"614": docs/cv774_13845.txt,
+		"626": docs/cv788_25272.txt,
+		"624": docs/cv798_23531.txt,
+		"623": docs/cv401_12605.txt,
+		"648": docs/cv881_13254.txt,
+		"628": docs/cv840_16321.txt,
+		"622": docs/cv820_22892.txt,
+		"625": docs/cv459_20319.txt,
+		"621": docs/cv001_18431.txt,
+		"605": docs/cv717_15953.txt,
+		"620": docs/cv532_6522.txt,
+		"592": docs/cv015_29439.txt,
+		"580": docs/cv499_10658.txt,
+		"589": docs/cv865_2895.txt,
+		"619": docs/cv968_24218.txt,
+		"698": docs/cv210_9312.txt,
+		"697": docs/cv973_10066.txt,
+		"694": docs/cv317_24049.txt,
+		"607": docs/cv287_15900.txt,
+		"649": docs/cv755_23616.txt,
+		"583": docs/cv316_6370.txt,
+		"612": docs/cv370_5221.txt,
+		"609": docs/cv590_19290.txt,
+		"639": docs/cv178_12972.txt,
+		"672": docs/cv953_6836.txt,
+		"671": docs/cv311_16002.txt,
+		"703": docs/cv617_9322.txt,
+		"669": docs/cv353_18159.txt,
+		"700": docs/cv415_22517.txt,
+		"606": docs/cv397_29023.txt,
+		"603": docs/cv285_16494.txt,
+		"617": docs/cv880_29800.txt,
+		"611": docs/cv882_10026.txt,
+		"601": docs/cv932_13401.txt,
+		"600": docs/cv296_12251.txt,
+		"594": docs/cv714_18502.txt,
+		"613": docs/cv705_11059.txt,
+		"718": docs/cv118_28980.txt,
+		"598": docs/cv649_12735.txt,
+		"719": docs/cv310_13091.txt,
+		"576": docs/cv052_29378.txt,
+		"590": docs/cv294_11684.txt,
+		"586": docs/cv830_6014.txt,
+		"593": docs/cv603_17694.txt,
+		"714": docs/cv721_29121.txt,
+		"680": docs/cv600_23878.txt,
+		"582": docs/cv737_28907.txt,
+		"701": docs/cv371_7630.txt,
+		"596": docs/cv517_19219.txt,
+		"610": docs/cv361_28944.txt,
+		"579": docs/cv054_4230.txt,
+		"635": docs/cv301_12146.txt,
+		"636": docs/cv996_11592.txt,
+		"585": docs/cv047_1754.txt,
+		"664": docs/cv682_16139.txt,
+		"584": docs/cv907_3541.txt,
+		"618": docs/cv174_9659.txt,
+		"581": docs/cv038_9749.txt,
+		"662": docs/cv868_11948.txt,
+		"691": docs/cv413_7398.txt,
+		"595": docs/cv233_15964.txt,
+		"597": docs/cv959_14611.txt,
+		"717": docs/cv655_11154.txt,
+		"577": docs/cv011_12166.txt,
+		"604": docs/cv030_21593.txt,
+		"591": docs/cv787_13743.txt,
+		"587": docs/cv605_11800.txt,
+		"602": docs/cv434_5793.txt,
+		"578": docs/cv276_15684.txt		
 },
 	"words" : {
 		"blockbuster" : {
@@ -23810,6 +23810,14 @@
 				"639": 3
 			}
 		},
+		"dome" : {
+			"idf": 3,
+			"tf": {
+				"639": 1},
+			"tf_idf": {
+				"639": 3
+			}
+		},
 		"exist" : {
 			"idf": 3,
 			"tf": {
@@ -25928,6 +25936,14 @@
 				"634": 1},
 			"tf_idf": {
 				"634": 3
+			}
+		},
+		"gowns" : {
+			"idf": 3,
+			"tf": {
+				"625": 1},
+			"tf_idf": {
+				"625": 3
 			}
 		},
 		"yard" : {
@@ -28506,30 +28522,6 @@
 				"627": 4.43136
 			}
 		},
-		"humiliateo" : {
-			"idf": 3,
-			"tf": {
-				"686": 1},
-			"tf_idf": {
-				"686": 3
-			}
-		},
-		"fill" : {
-			"idf": 3,
-			"tf": {
-				"592": 1.47712},
-			"tf_idf": {
-				"592": 4.43136
-			}
-		},
-		"stille" : {
-			"idf": 3,
-			"tf": {
-				"627": 2},
-			"tf_idf": {
-				"627": 6
-			}
-		},
 		"pretende" : {
 			"idf": 3,
 			"tf": {
@@ -29056,6 +29048,30 @@
 				"625": 1.30103},
 			"tf_idf": {
 				"625": 3.90309
+			}
+		},
+		"humiliateo" : {
+			"idf": 3,
+			"tf": {
+				"686": 1},
+			"tf_idf": {
+				"686": 3
+			}
+		},
+		"fill" : {
+			"idf": 3,
+			"tf": {
+				"592": 1.47712},
+			"tf_idf": {
+				"592": 4.43136
+			}
+		},
+		"stille" : {
+			"idf": 3,
+			"tf": {
+				"627": 2},
+			"tf_idf": {
+				"627": 6
 			}
 		},
 		"donnin" : {
@@ -49824,22 +49840,6 @@
 				"599": 1},
 			"tf_idf": {
 				"599": 3
-			}
-		},
-		"dome" : {
-			"idf": 3,
-			"tf": {
-				"639": 1},
-			"tf_idf": {
-				"639": 3
-			}
-		},
-		"gownseuuug" : {
-			"idf": 3,
-			"tf": {
-				"625": 1},
-			"tf_idf": {
-				"625": 3
 			}
 		},
 		"underpinning" : {

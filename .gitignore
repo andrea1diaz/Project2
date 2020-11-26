@@ -2,6 +2,7 @@ frontend/node_modules/
 front/node_modules/
 backend/build/
 
+backend/node_modules/
 *.swp
 .DS_Store
 *.dSYM/

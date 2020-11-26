@@ -1,9 +1,9 @@
 import axios from 'axios'
 
-axios.get("http://localhost:5000/api", { crossdomain: true })
+axios.get("http://localhost:3000/api", { crossdomain: true })
 
 const session = axios.create ({
-	baseURL:'http://localhost:5000/api',
+	baseURL:'http://localhost:3000/api',
 	headers: {
 		'Accept': 'application/json',
 		'Content-Type': 'application/json',
@@ -12,7 +12,7 @@ const session = axios.create ({
 		'Access-Control-Allow-Methods': 'DELETE, POST, GET, OPTIONS'
 	},
 	proxy: {
-		host: 'https://localhost:5000/api'
+		host: 'https://localhost:3000/api'
 	}
 })
 session.interceptors.response.use((response) => {

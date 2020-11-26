@@ -28,7 +28,8 @@ data_processor::data_processor () {
 
 	int number_of_docs = doc_list.size();
 	int docs_per_block = number_of_docs / log(number_of_docs);
-
+	
+	int z = 0;
 	for (int i = 0; i < number_of_docs; i += docs_per_block) {
 		int size;
 
@@ -38,8 +39,10 @@ data_processor::data_processor () {
 		Block *block = new Block(i);
 	
 		for (int j = 0; j < size; ++j) {
-			block->docs.insert ({doc_list[i + j], 0});
-			stoplist (doc_list[i + j], i + j, block);
+			block->docs.insert ({doc_list[z], z});
+			stoplist (doc_list[z], z, block);
+
+			z++;
 		}
 
 		block->write_block (number_of_docs);
@@ -117,8 +120,6 @@ bool data_processor::stoplist(std::string to_clean, int doc_id, Block *block) {
 				block->words.insert ({word, block->words.size()});
 				block->word_counts.insert ({word, c});
 				block->in_docs.insert ({word, d});
-				block->docs.find (to_clean)->second += 1;
-			
 			}
 		}
 	}
