@@ -1,19 +1,26 @@
 <template>
 	<div id="result">
 		<div class="hashtags">
-			<div id="hashtags-title">Hashtags</div>
+			<div id="hashtags-title">Words</div>
 			<div id="hashtags">
 				<div
-					id="collection"
+					id="word"
+					v-for="word in words"
+					v-bind:key="word"
 				>
-					{{ collections }}
+				{{ word }}
 				</div>
 			</div>
 		</div>
 		<div class="content">
 			<div id="search-results-title">Resultados</div>
-			<div id="words">
-
+			<div id="words" :key="componentKey">
+				<div
+					v-for="i in results"
+					v-bind:key= i
+				>
+					{{ i }}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -24,17 +31,31 @@
 
 	export default {
 		name: 'Result',
+		props: {
+			results: Array,
+			componentKey: {
+				default: 0
+			},
+			send: {
+				default: false
+			}
+		},
+		data : function () {
+			return {
+				to_find: "",
+			}
+		},
 		computed: {
-			...mapState('collection', ['collections'])
+			...mapState('collection', ['words'])
 		},
 		created: function () {
 			this.fetchCollections()
 		},
 		methods: {
-			...mapActions('collection', ['getCollections']),
+			...mapActions('collection', ['getWords']),
 			fetchCollections: async function () {
-				await this.getCollections()
-			}
+				await this.getWords()
+			},
 		}
 	}
 </script>
@@ -63,6 +84,7 @@
 		margin-left: 30px;
 		float: left;
 		width: calc(100% - 20% - 40px);
+		height: 100%;
 	}
 
 	.btn-upload {
@@ -91,7 +113,7 @@
 		background-color: #F4D5D3;
 		border: solid black 3px;
 		border-radius: 8px;
-		height: 17pc;
+		height: calc(100% - 53px);
 		overflow: scroll;
 	}
 
@@ -103,5 +125,10 @@
 		font-size: 20px;
 		font-weight: bold;
 		margin-bottom: 20px;
+	}
+
+	#hashtags {
+		overflow: scroll;
+		height: 93%;
 	}
 </style>

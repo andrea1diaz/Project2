@@ -8,28 +8,17 @@
 #include "porter_stemming.cpp"
 
 int main () {
+	//std::cout << "processing data...\n";
 	data_processor process_data;
 	
-	process_data.write_index();
+	//process_data.write_index();
+	//std::cout << "finished processing data\n";
+	
+	std::string to_find;
+	//std::cout << "ready for search\n";
+
+		std::cin >> to_find;
+		process_data.find(to_find);
 
 	return 0;
-
-	/*inverted_index recovery;
-	
-	recovery.add("data.txt", process_data.most_used_words());
-	recovery.save_to("data_index.txt");
-
-	recovery.add("data1.txt", process_data1.most_used_words());
-	recovery.save_to("data_index.txt");
-
-	recovery.add("data2.txt", process_data1.most_used_words());
-	recovery.save_to("data_index.txt");
-
-	std::vector<std::string> result2 = AND(recovery.L("Frodo"), recovery.L("Frodo"), recovery.L("Mirror"));
-
-	
-	for (auto i : result2) {
-		std::cout << i << '\n';
-	}
-	return 0;*/
 }

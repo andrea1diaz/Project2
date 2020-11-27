@@ -12,10 +12,13 @@
 #include <numeric>
 #include <sstream>
 #include <filesystem>
+#include <regex>
+#include <nlohmann/json.hpp>
 
-#include <boost/property_tree/json_parser.hpp>
-
+using json = nlohmann::json;
 namespace fs = std::filesystem;
+
+std::string get_stem(const fs::path &p) { return (p.stem().string()); }
 
 data_processor::data_processor () {
 	add_stopwords ();
@@ -23,8 +26,10 @@ data_processor::data_processor () {
 	std::string path_ = "docs/";
 	std::vector<std::string> doc_list;
 
-	for (const auto & entry : fs::directory_iterator(path_))
-		doc_list.push_back(entry.path());
+	for (const auto & entry : fs::directory_iterator(path_)) {
+		std::string tmp = entry.path();
+		doc_list.push_back(get_stem(tmp));
+	}
 
 	int number_of_docs = doc_list.size();
 	int docs_per_block = number_of_docs / log(number_of_docs);
@@ -45,7 +50,7 @@ data_processor::data_processor () {
 			z++;
 		}
 
-		block->write_block (number_of_docs);
+		//block->write_block (number_of_docs);
 	}
 
 }
@@ -69,7 +74,11 @@ void data_processor::add_stopwords () {
 
 bool data_processor::stoplist(std::string to_clean, int doc_id, Block *block) {
 	std::fstream file;
-	file.open(to_clean);
+	std::string tmp = "docs/";
+	tmp += to_clean;
+	tmp += ".txt";
+	file.open(tmp);
+
 	std::string word;
 
 	int vocabulary_count = 0;
@@ -78,6 +87,8 @@ bool data_processor::stoplist(std::string to_clean, int doc_id, Block *block) {
 	while (file >> word) {
 		std::transform(word.begin(), word.end(), word.begin(),
     [](unsigned char c){ return std::tolower(c); });
+		std::regex const filter("[^0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]");
+		word = std::regex_replace(word, filter, "");
 
 		if (signs.find(std::string(1, word.back())) != signs.end())
 			word.pop_back();
@@ -141,28 +152,31 @@ std::string data_processor::stemming (std::string word) {
 }
 
 void data_processor::write_index () {
+
 	std::fstream file;
 	std::string filename = "index/";
 
 	filename += "index.json";
 
-	file.open (filename, std::ios::out);
+	file.open (filename, std::ios::out); 
 
-	file << "{\n";
+
+	file << "{";
 	
 	int j = 1;
 	for (auto i : index) {
 		file << "\"" << i.first << "\": [";
-		
+			
 		int z = 1;
 		for (auto j : i.second) {
+
 			file <<  j.first;
 			if (z < i.second.size()) file << ", ";
 			z++;
 		}
 		
-		if (j < index.size()) file << "],\n";
-		else file << "]\n";
+		if (j < index.size()) file << "],";
+		else file << "]";
 
 		j++;
 	}
@@ -170,7 +184,72 @@ void data_processor::write_index () {
 	file << "}";
 
 	file.close();
+
+	std::string filename1 = "index/words.json";
+	file.open (filename1, std::ios::out);
+
+	file << "[";
+
+	j = 1;
+	for (auto i : index) {
+		file << "\"" << i.first << "\"";
+		if (j < index.size()) file << ", ";
+		j++;
+	}
+		
+	file << "]";
+
+	file.close();
 }
+
+
+void data_processor::find (std::string input) {
+	std::stringstream ss(input);
+	std::istream_iterator<std::string> begin(ss);
+	std::istream_iterator<std::string> end;
+	std::vector<std::string> vstrings(begin, end);
+	std::vector<int> block_id;
+
+	bool checker = false;
+	for (auto word : vstrings) {
+		std::transform(word.begin(), word.end(), word.begin(),
+    [](unsigned char c){ return std::tolower(c); });
+		std::regex const filter("[^0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]");
+		word = std::regex_replace(word, filter, "");
+
+		if (stopwords.find(word) == stopwords.end()) {
+			if (index.find(word) != index.end()) {
+				for (auto block : index.find(word)->second)
+					block_id.push_back(block.first);
+				checker = true;
+			}
+
+			word = stemming(word);
+			if (checker == false) {
+				if (index.find(word) != index.end()) {
+					for (auto block : index.find(word)->second)
+						block_id.push_back(block.first);
+				}
+			}
+
+			checker = false;
+		}
+	}
+
+	int j = 1;
+	std::cout << "[";
+
+	for (auto i : block_id) {
+		std::cout << i;
+		
+		if (j < block_id.size()) std::cout << ", ";
+		j++;	
+	}
+
+	std::cout << "]";
+}
+
+
 
 
 double cosine_similarity (std::vector<int> a, std::vector<int> b) {

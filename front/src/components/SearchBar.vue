@@ -10,6 +10,8 @@
 				type="text"
 				placeholder="Search..."
 				autocomplete="off"
+				v-model="inputSearch"
+				v-on:keyup.enter="emitToParent"
 			/>
 		</div>
 	</div>
@@ -18,6 +20,12 @@
 <script>
 	export default {
 		name: 'SearchBar',
+		methods: {
+			emitToParent: function () {
+				let to_send = this.inputSearch.replace(/ /g,"_");
+				this.$emit('childToParent', to_send)
+			},
+		}
 	}
 </script>
 

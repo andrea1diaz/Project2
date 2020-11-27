@@ -25,57 +25,55 @@ struct Block {
 
 		file.open (filename, std::ios::out);
 
-		file << "{\n";
-		file << "\t\"docs\": {\n";
+		file << "{";
+		file << "\"docs\":{";
 		int j = 1;
 		for (auto i : docs) {
-			file << "\t\t\"" << i.second << "\": " << i.first;
+			file << "\"" << i.second << "\":\"" << i.first << "\"";
 			
-			if (j < docs.size()) file << ",\n";
+			if (j < docs.size()) file << ",";
 			j++;
 
 			//file << "\t\t\t\"name\": " << i.first << "\n\t\t\t},\n";
 		}
-		file << "\t\t\n},\n";
-		file << "\t\"words\" : {\n";
+		file << "},";
+		file << "\"words\":{";
 
 		int q = 1;
 		for (auto i : word_counts) {
-			file << "\t\t\"" << i.first << "\" : {\n";
+			file << "\"" << i.first << "\":{";
 			double idf = log10(number_of_docs / in_docs[i.first].size());
-			file << "\t\t\t\"idf\": " << idf << ",\n";
-			file << "\t\t\t\"tf\": {\n";
+			file << "\"idf\":" << idf << ",";
+			file << "\"tf\":{";
 			std::multiset<std::pair<double, int>> tf;
 			std::multiset<std::pair<double, int>>::iterator it;
 			
 			int z = 1;
 			for (int j = 0; j < i.second.size(); ++j) {
-				file << "\t\t\t\t\"" << in_docs[i.first][j] << "\": " << 1 + log10(i.second[j]);
-				if (z < i.second.size()) file << ",\n";
+				file << "\"" << in_docs[i.first][j] << "\":" << 1 + log10(i.second[j]);
+				if (z < i.second.size()) file << ",";
 				z++;
 				
 				std::pair<double, int> p ((double)(1 + log10(i.second[j])),	in_docs[i.first][j]);
 				tf.emplace(p);
 			}
-			file << "},\n";
-			file << "\t\t\t\"tf_idf\": {\n";
+			file << "},";
+			file << "\"tfidf\":{";
 
 			int x = 1;
 			for (std::multiset<std::pair<double, int>>::iterator it = tf.begin(); it != tf.end(); ++it) {
-				file << "\t\t\t\t\"" << it->second << "\": " << it->first * idf;
-				if (x < tf.size()) file << ",\n";
+				file << "\"" << it->second << "\":" << it->first * idf;
+				if (x < tf.size()) file << ",";
 				x++;
 			}
-			file << "\n\t\t\t}\n";
+			file << "}";
 
-			if (q < words.size()) file << "\t\t},\n";
-			else file << "\n";
-
+			if (q < words.size()) file << "},";
 			q++;
 
 		}
 
-		file <<	"\t}\n}";
+		file <<	"}}}";
 
 		file.close();
 	}

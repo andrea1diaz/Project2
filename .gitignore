@@ -6,4 +6,3 @@ backend/node_modules/
 *.swp
 .DS_Store
 *.dSYM/
-*.out

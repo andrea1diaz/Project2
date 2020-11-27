@@ -1,3 +1,8 @@
+#pragma warning( push )
+#pragma warning( disable : 4101)
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wwritable-strings"
+
 #include "porter_stemming.h"
 
 #include <string.h>
@@ -464,4 +469,5 @@ std::string porter_stemming::stemming(char * p, int i, int j) {
 	return tmp;
 }
 
-
+#pragma warning( pop ) 
+#pragma clang diagnostic pop

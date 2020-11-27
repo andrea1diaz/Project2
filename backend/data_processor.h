@@ -25,6 +25,8 @@ public:
 	
 	std::string stemming(std::string word);
 	void write_index();
+
+	void find (std::string);
 	
 private:
 	porter_stemming ps;
@@ -32,5 +34,6 @@ private:
 	std::unordered_map<std::string, bool> stopwords;
 	std::unordered_map<std::string, bool> signs;
 	std::unordered_map<std::string, std::unordered_map<int, int>> index;
-
+	
+	void write_founded_blocks (std::vector<int>);
 };
