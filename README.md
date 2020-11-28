@@ -10,3 +10,6 @@ The tfIDF  of word per doc is calculated by block and when is saved to secondary
 
 ## UI
 We implemented the frontend in Vue and the backend in Node.js. As the main implementation is done in C++ we first process the indexing and save in secondary memory in the program and the we have another C++ read program that just has the indexing file (word and block ids where it appears) to facilitate the search. In the Node.js backend everytime it receives a search from the front it executes a child process who runs the a.out of the read program, that return the blocks whe the words at. The backend just recovers the JSON files of the blocks in the list and returns the names of the files where they are in order of score.
+
+### video
+https://drive.google.com/file/d/1sgdqwt6u8lzFqrQ-EvKjNU4ASPiAwbh_/view?usp=sharing
